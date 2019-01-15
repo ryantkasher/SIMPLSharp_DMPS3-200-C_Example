@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="fi_FI" name="Finnish" variant="Finnish">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[fi_FI]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Minuutti]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Tunti]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Päivä]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Minuuttia]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Tuntia]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Päivää]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Maanantai]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Tiistai]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Keskiviikko]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Torstai]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Perjantai]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Lauantai]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Sunnuntai]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Tammikuu]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Helmikuu]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Maaliskuu]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[Huhtikuu]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Toukokuu]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Kesäkuu]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Heinäkuu]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[Elokuu]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[Syyskuu]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Lokakuu]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[Marraskuu]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[Joulukuu]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Jäljellä]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Odotetaan laitetta Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Online]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Offline]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Offline lähtien]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Varattu]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Saatavilla]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[Kokouksen aikarajan sisällä]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Käytössä]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Vapaa]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Aihe:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[järjestäjä:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Aloitusaika]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Lopetusaika]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[alkaa:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[loppuu:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Kesto]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Lopeta nyt]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Jatka]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Kokousta ei ole valittu]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Uusi kokous]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Peruuta]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Vahvista]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Lisää]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Liity kokoukseen]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Kokous on yksityinen]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Yksityinen]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Yksityinen]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Osallistujat]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Pakollinen]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Valinnainen]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Ei raportoituja osallistujia]]></lookup>
+
+</lang>

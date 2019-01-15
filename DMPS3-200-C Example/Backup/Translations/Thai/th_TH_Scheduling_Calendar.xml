@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="th_TH" name="Thai" variant="Thai">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[th_TH]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[นาที]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[ชั่วโมง]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[วัน]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[นาที]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[ชั่วโมง]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[วัน]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[จันทร์]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[อังคาร]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[พุธ]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[พฤหัสบดี]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[ศุกร์]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[เสาร์]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[อาทิตย์]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[มกราคม]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[กุมภาพันธ์]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[มีนาคม]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[เมษายน]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[พฤษภาคม]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[มิถุนายน]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[กรกฎาคม]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[สิงหาคม]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[กันยายน]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[ตุลาคม]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[พฤศจิกายน]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[ธันวาคม]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[คงเหลือ]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[กำลังรอ Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[ออนไลน์]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[ออฟไลน์]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[ออฟไลน์ตั้งแต่]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[จองแล้ว]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[พร้อมใช้งานได้]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[ภายในจุดเริ่มต้นการประชุม]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[มีคนอยู่]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[ว่าง]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[หัวข้อ:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[ผู้จัดงาน:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[เวลาเริ่มต้น:]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[เวลาสิ้นสุด:]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[เริ่มเวลา:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[สิ้นสุดเวลา:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[ระยะเวลา]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[สิ้นสุดตอนนี้]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[เพิ่มขยาย]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[ไม่ได้เลือกการประชุม]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[การประชุมใหม่]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[กำลังประชุม]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[ยืนยัน]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[เพิ่ม]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[เข้าร่วมการประชุม]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[การประชุมนี้เป็นแบบส่วนตัว]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[ความเป็นส่วนตัว]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[ความเป็นส่วนตัว]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[ผู้เข้าร่วม]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[จำเป็น]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[เป็นทางเลือก]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[ไม่มีผู้เข้ารวม]]></lookup>
+
+</lang>

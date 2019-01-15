@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="he_IL" name="Hebrew" variant="Hebrew">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[he_IL]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[דקה]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[שעה]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[יום]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[דקות]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[שעות]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[ימים]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[שני]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[שלישי]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[רביעי]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[חמישי]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[שישי]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[שבת]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[ראשון]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[ינואר]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[פברואר]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[מרס]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[אפריל]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[מאי]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[יוני]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[יולי]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[אוגוסט]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[ספטמבר]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[אוקטובר]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[נובמבר]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[דצמבר]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[נותרו]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[ממתין ל-Fusion®‎]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[מקוון]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[לא מקוון]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[לא מקוון מאז]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[שמור]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[זמין]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[במסגרת סף הפגישה]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[תפוס]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[פנוי]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[נושא:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[מארגן:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[שעת התחלה]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[שעת סיום]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[מתחיל ב:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[מסתיים ב:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[משך]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[סיים כעת]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[הארך]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[לא נבחרה פגישה]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[פגישה חדשה]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[ביטול]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[אישור]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[הוסף]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[הצטרף לפגישה]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[פגישה זו פרטית]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[פרטי]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[פרטי]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[משתתפים]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[נדרש]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[אופציונלי]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[לא דווחו משתתפים]]></lookup>
+
+</lang>

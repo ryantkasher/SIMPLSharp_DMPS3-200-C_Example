@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ro_RO" name="Romanian" variant="Romanian">
+	<include file="ro_RO_Common_Text.xml"/>
+	<include file="ro_RO_Scheduling_Calendar.xml"/>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[Română]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[Cadru AV]]></lookup>
+	<lookup key="signin"><![CDATA[Înregistrare]]></lookup>
+  
+	
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[Așteptați inițializarea sistemului…]]></lookup>
+	
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[REZERVAŢI ACUM]]></lookup>
+	
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[Pentru restul zilei]]></lookup>
+	
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[Întâlnire nouă]]></lookup>
+	
+	<!-- 002_Home_Fusion_Offline -->
+	
+	<!-- 002_Home_Meeting_InProgress -->
+	
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[În desfășurare]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[PARTICIPARE LA ÎNTÂLNIRE]]></lookup>
+	
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[Efectuați un apel]]></lookup>
+	
+	<!-- 003_Call_Video_Directory -->
+	
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[Într-un apel video]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[Dezactivare funcție video]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+	
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+	
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[Într-un apel audio]]></lookup>
+	
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+	
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[Intrare]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[Întrerupeți-l pe cel curent + răspundeți]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[IGNORAŢI]]></lookup>
+	
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[RĂSPUNDEŢI]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[REFUZAŢI]]></lookup>
+	
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[Selectați o sursă pentru Prezent]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[Meniu pop-up]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[Meniu superior]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[REFUZAŢI]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[SURSE]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[Prezentare curentă]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[Oprire prezentare]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[Televizor inteligent]]></lookup>
+		
+	<!-- 005_Present_BluRay_Keypad -->
+	 
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[redare sursă prin]]></lookup>
+	
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[Conectați-vă laptopul]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[Conectați-vă laptopul la]]></lookup>
+	
+	<!-- 005_Present_PC -->
+	
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[Tuner TV]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[Ghid]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+	
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[Laptop]]></lookup>
+	
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[Microfonul are sunetul dezactivat pentru Confidențialitate]]></lookup>
+	
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[Reglare valori curente]]></lookup>
+	
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[Toate afișajele vor fi deconectate și funcția audio va fi dezactivată.]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[Sistemul se va decupla automat în:]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[Închidere]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[Continuați utilizarea]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[În curs de închidere]]></lookup>
+    
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+  
+  <!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[Comutare navigație]]></lookup>
+  
+  <!-- login.html -->
+	<lookup key="Username"><![CDATA[Nume de utilizator]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[Vă rugăm să vă înregistrați]]></lookup>
+	<lookup key="Password"><![CDATA[Parolă]]></lookup>
+	<lookup key="Required"><![CDATA[Obligatorii]]></lookup>
+	
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[Adăugare dispozitiv nou]]></lookup>
+	<lookup key="DeviceType"><![CDATA[Tip de dispozitiv]]></lookup>
+	<lookup key="ChannelName"><![CDATA[Denumire canal]]></lookup>
+	<lookup key="DisplayName"><![CDATA[Afişare nume]]></lookup>
+	<lookup key="Model"><![CDATA[Model]]></lookup>
+	<lookup key="Control"><![CDATA[Comandă]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[Port]]></lookup>
+	<lookup key="DevicePort"><![CDATA[Port dispozitiv]]></lookup>
+	<lookup key="Channel"><![CDATA[Canal]]></lookup>
+	<lookup key="IPID"><![CDATA[IPID]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[Digital Media]]></lookup>
+	<lookup key="Resolution"><![CDATA[Rezoluție]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[Mod de afișare]]></lookup>
+	<lookup key="UsbPort"><![CDATA[Port USB]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[Rată de transfer]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[Format obligatoriu pentru IPID(3-255).]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[Format obligatoriu pentru Adresă IP(#.#.#.#).]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[Format obligatoriu pentru port(0-65535).]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[Format obligatoriu pentru canal(0-255).]]></lookup>
+  
+  <!--ConfigStep1.html-->
+  
+	<lookup key="SystemSetup"><![CDATA[Configurare sistem]]></lookup>
+	<lookup key="RoomName"><![CDATA[Nume încăpere]]></lookup>
+	<lookup key="Locale"><![CDATA[Setări regionale]]></lookup>
+	<lookup key="SupportsFusion"><![CDATA[Compatibil cu Fusion]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Nume încăpere Fusion]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Conexiune Fusion]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[Permiteți apelurile]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[Activați comanda pentru volumul dispozitivului]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[Activați iluminatul]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[Format oră]]></lookup>
+	<lookup key="24Hour"><![CDATA[24 ore]]></lookup>
+	<lookup key="12hour"><![CDATA[12 ore]]></lookup>
+	<lookup key="DateFormat"><![CDATA[Format dată]]></lookup>
+  
+  <!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[Dispozitive]]></lookup>
+	<lookup key="Name"><![CDATA[Nume]]></lookup>
+	<lookup key="Type"><![CDATA[Tip]]></lookup>
+	<lookup key="Transport"><![CDATA[Transfer]]></lookup>
+	<lookup key="Driver"><![CDATA[Driver]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[Detalii privind transferul]]></lookup>
+	<lookup key="Serial"><![CDATA[Serial]]></lookup>
+	<lookup key="Delete"><![CDATA[Ştergere]]></lookup>
+	<lookup key="Add"><![CDATA[Adăugare]]></lookup>
+	<lookup key="Previous"><![CDATA[Anterior]]></lookup>
+  
+  <!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[Intrări]]></lookup>
+	<lookup key="Icon"><![CDATA[Pictogramă]]></lookup>
+	<lookup key="Enabled"><![CDATA[Activat]]></lookup>
+	<lookup key="Rank"><![CDATA[Poziție]]></lookup>
+	<lookup key="Device"><![CDATA[Dispozitiv]]></lookup>
+	<lookup key="Endpoint"><![CDATA[Punct final]]></lookup>
+	<lookup key="Outputs"><![CDATA[Ieșiri]]></lookup>
+
+  <!-- ConfigStep4.html (01/28/2016 ) -->  
+	<lookup key="DownloadConfiguration"><![CDATA[Descărcare configurare]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[Încărcare configurare]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[Activare configurare]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[Revenire la ultima configurare]]></lookup>
+  
+  <!--Index.html-->
+	<lookup key="Welcome"><![CDATA[Bun venit la AV Framework 2.0]]></lookup>
+
+  <!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[Informații Ethernet]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[Informații comutator]]></lookup>
+	<lookup key="InputChannels"><![CDATA[Canale de intrare]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[Dispozitiv atașat]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[Canale de ieșire]]></lookup>
+	<lookup key="HostName"><![CDATA[Nume gazdă]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[Ruter implicit]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[Mască subrețea]]></lookup>
+
+  <!--JavaScript-->
+	<lookup key="Error"><![CDATA[Eroare]]></lookup>
+	<lookup key="Notice"><![CDATA[Notă]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[Se pare că a existat o problemă la salvare.]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[Sistemul are deja numărul maxim ({0}) pentru acel dispozitiv.]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[Specificați mai întâi un dispozitiv.]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[Aveți modificări nesalvate.]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[Utilizator/parolă care nu sunt valide.]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[Dispozitivele necontrolate/dezactivate nu pot fi configurate.]]></lookup>
+  
+    <!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[Avertizare]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[Sunteți sigur că doriți să ștergeți acest dispozitiv?]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[Sunteți sigur că doriți să activați această configurare?]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[Sunteți sigur că doriți să reveniți la această configurare?]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[{0} este deja în uz.]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[Acest fișier este prea mare.]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[Tip de fișier incorect.]]></lookup>
+	<lookup key="Success"><![CDATA[Succes]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[Configurare actualizată.]]></lookup>
+
+  <!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[Deconectare]]></lookup>
+	<lookup key="Configure"><![CDATA[Configurare]]></lookup>
+  <!-- Web Menu System (01/28/2016 ) -->  
+	<lookup key="NetworkStatus"><![CDATA[Stare rețea]]></lookup>
+	<lookup key="Switch"><![CDATA[Întrerupător]]></lookup>
+	<lookup key="System"><![CDATA[Sistem]]></lookup>
+  
+  
+  <!-- 01/19/2016, enums for web page -->
+  <!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[Dezactivat]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[Necontrolat]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[Blu-ray]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[Cablu]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[Dezactivat]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[Necontrolat]]></lookup>
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[Afișaj AV]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[ConnectIt]]></lookup>
+
+  <!-- ComBaudRate -->
+    <lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38400]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28800]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14400]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4800]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2400]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1800]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+  
+  <!-- DateFormat -->
+	<lookup key="DateFormat.MMDDYY"><![CDATA[Ianuarie 15, 2017]]></lookup>
+	<lookup key="DateFormat.DDMMYY"><![CDATA[15 ianuarie 2017]]></lookup>
+	<lookup key="DateFormat.YYMMDD"><![CDATA[2017 ianuarie 15]]></lookup>
+  
+  <!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[Necunoscuta]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[Conectat]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[Neconectat]]></lookup>
+  
+  <!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[Comutator]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[Punct final transmisie]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[Punct final recepție]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[Punct final demultiplicator pentru recepție]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[Afișaj AV]]></lookup>
+	<lookup key="DeviceType.Bluray"><![CDATA[Blu-ray]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[Cablu TV]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[Panoul de control]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[Panou]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[Ocupare]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[Tastatură]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[USB tastatură]]></lookup>
+  
+  <!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[Menținere]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[Extindere]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[Zoom]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[Niciunul]]></lookup>
+  
+   <!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[Serial]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+  <!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[EDID Preferat]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[Niciunul]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[Rez640x480 PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[Rez720x480p NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[Rez720x576i PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[Rez720x576p PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[Rez800x600 PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[Rez848x480 PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[Rez1024x768 PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[Rez1280x720p PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[Rez1280x720p NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[Rez1280x768 PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[Rez1280x768 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[Rez1280x800 PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[Rez1280x800 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[Rez1280x960 PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[Rez1280x1024 PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[Rez1360x768 PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[Rez1366x768 PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[Rez1366x768 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[Rez1400x1050 PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[Rez1400x1050 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[Rez1440x900 PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[Rez1440x900 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[Rez1600x900 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[Rez1600x1200 PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[Rez1680x1050 PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[Rez1680x1050 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[Rez1920x1080i PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[Rez1920x1080i NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[Rez1920x1080p PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[Rez1920x1080p NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[Rez1920x1200 PC Rb]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[Rez2048x1152 PC Rb]]></lookup>
+  
+  <!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[Admin]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[Actualizare driver]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[Utilizator]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[Neautorizat]]></lookup>
+  
+  <!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[Necunoscută]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[Neconfigurată]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[În curs de configurare]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[Configurată]]></lookup>
+  
+  <!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[Niciunul]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[Crestron Intern]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[Serial]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[Serial]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[Serial]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+  
+  <!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[Nedefinit]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[Fibră monomod]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[Fibră]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[Audio]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[Compozit]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[Port afișaj]]></lookup>
+
+  
+  <!-- 02/11/2016 -->
+  
+  <!--ConfigStep3.html -->
+	<lookup key="DeviceName"><![CDATA[Nume dispozitiv]]></lookup>
+  
+  <!-- Web Logger : new added  -->  
+	<lookup key="ActivityLog"><![CDATA[Jurnal de activitate]]></lookup>
+	<lookup key="NoFilter"><![CDATA[Fără filtrare]]></lookup>
+	<lookup key="Info"><![CDATA[Informaţii]]></lookup>
+	<lookup key="Debug"><![CDATA[Depanare]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[Filtrare expresie]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[Oprire defilare]]></lookup>
+	<lookup key="Scrolling"><![CDATA[Defilare]]></lookup>
+	<lookup key="Download"><![CDATA[Descărcare]]></lookup>
+  
+	<lookup key="ClearSearchMessage"><![CDATA[Goliţi pentru a relua]]></lookup>
+	<lookup key="Search"><![CDATA[Căutare]]></lookup>
+	<lookup key="SearchLog"><![CDATA[Căutare jurnal]]></lookup>
+	<lookup key="Clear"><![CDATA[Golire]]></lookup>
+
+  
+  <!-- 02/29/2016 -->   
+  
+  <!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+  
+  <!-- AddNewDevice.html -->
+
+	<lookup key="UseSensorTimeout"><![CDATA[Utilizare timp de expirare senzor]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[Timp de expirare în minute]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[Pornire sistem]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[Oprire sistem]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[Direcţionare imagini video implicite]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[Comandă de pornire]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[Comandă de oprire]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[Setare comandă sursă]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[Întârziere pornire în secunde]]></lookup>
+	<lookup key="Seconds"><![CDATA[Secunde]]></lookup>
+
+  <!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[Comportament releu]]></lookup>
+	<lookup key="RelayNotes1"><![CDATA[Comenzile releu vor fi trimise când se selectează o sursă video sau când se decuplează sistemul.]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[Conectaţi RIDICARE ECRAN la releul 1 şi COBORÂRE ECRAN la releul 2]]></lookup>
+
+  <!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[Dezactivare]]></lookup>
+	<lookup key="Enable"><![CDATA[Activare]]></lookup>
+ 
+  <!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[Notă: Utilizaţi \n pentru linie nouă \r pentru deplasare la început de rând.]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[Introduceţi o perioadă de expirare validă.]]></lookup>
+
+  <!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[Sistem de apelare]]></lookup>
+	<lookup key="Relay"><![CDATA[Releu]]></lookup>
+	<lookup key="Lighting"><![CDATA[Iluminare]]></lookup>
+
+  <!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[Da (Implicit)]]></lookup>
+
+  <!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[Gestionare configurare]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[Copiere de rezervă/Restabilire]]></lookup>
+
+  <!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[Taste rapide]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[Tastă rapidă]]></lookup>
+	<lookup key="Number"><![CDATA[Număr]]></lookup>
+	<lookup key="OneTouch"><![CDATA[O singură atingere]]></lookup>
+	<lookup key="Regex"><![CDATA[Expresii regulate]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[Tastele rapide activate necesită un nume şi un număr.]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[Introduceţi un număr de telefon valid.]]></lookup>
+
+  <!--FusionSettings.html  -->
+  
+	<lookup key="EnableFusionScheduling"><![CDATA[Activaţi programarea Fusion]]></lookup>
+	<lookup key="RoomNameRequired"><![CDATA[Este necesar numele încăperii]]></lookup>
+
+  <!--LightingSettings.html -->
+
+	<lookup key="LightingPresets"><![CDATA[Setări prestabilite iluminare]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[Setările prestabilite necesită un nume.]]></lookup>
+
+  <!-- 03/09/2016 -->   
+  <!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[Aec]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[Codec]]></lookup>
+
+  <!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[Editare dispozitiv]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[Modificările dumneavoastră se vor aplica în {0} secunde(s).]]></lookup>
+
+
+  <!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[Următorul/următoarele dispozitiv(e)<br> {0} <br> sunt asociate acestui dispozitiv. Continuaţi ştergerea?]]></lookup>
+
+  <!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[ID Cresnet]]></lookup>  
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Format obligatoriu pentru ID Crestnet (03-FF).]]></lookup>
+
+  <!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[Echipament]]></lookup>
+  
+  <!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[CrestronCrestnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[Personalizare transfer serial]]></lookup>
+  
+  <!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[De scurtă durată]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[Bistabil]]></lookup>
+  
+  <!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[Dezactivat]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[Activat]]></lookup>
+  
+  <!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[Format obligatoriu pentru întârziere(0-255).]]></lookup>
+  
+  <!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[A intervenit o eroare la comunicarea cu dispozitivului.]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[Serverul se actualizează, vă rugăm aşteptaţi.]]></lookup>
+  
+  <!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[DISPONIBIL(Ă) PENTRU URMĂTOARELE]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[DISPONIBIL(Ă) PENTRU RESTUL ZILEI]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[REZERVAT(Ă) PENTRU URMĂTOARELE]]></lookup>
+	<lookup key="HourLabel"><![CDATA[ORE]]></lookup>
+	<lookup key="MinLabel"><![CDATA[MINUTE]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[URMĂTOARELE PÂNĂ LA]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[MIN rămase | URMĂTOARELE PÂNĂ LA:]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[Prezent utilizare fără fir]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[Vizită:]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[Cod:]]></lookup>
+	<lookup key="CableLabel"><![CDATA[Prezent utilizare de cabluri]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[Conectare cu ajutorul cablurilor furnizate:]]></lookup>
+  
+  <!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[Sistemul este acum offline; activați-l sau reveniți la configurație.]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[Sistemul este acum offline.]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[Sistemul este acum online.]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[Sistemul este în curs de configurare.]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[Sistemul este în curs de configurare.]]></lookup>
+	<lookup key="ConfigurationText"><![CDATA[Vă rugăm să așteptați; este în curs configurarea sistemului...]]></lookup>
+  
+  <!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[Orice modificare salvată va trece sistemul în starea offline. Dvs./Utilizatorul trebuie să activeze noua configurație pentru ca sistemul să fie online. Apăsați OK pentru a continua.]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[Port neconfigurat]]></lookup>
+	<lookup key="Version"><![CDATA[Versiune]]></lookup>
+	<lookup key="None"><![CDATA[Niciunul]]></lookup>
+  
+	<lookup key="AssociatedChannel"><![CDATA[Canal asociat]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[Canal primar]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[Canal secundar]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[Canal secundar]]></lookup>
+	<lookup key="IPAddress"><![CDATA[Adresă IP]]></lookup>
+  
+  <!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+  
+  <!-- 08/15/2016 -->
+ 	<lookup key="DialerType.Sip"><![CDATA[Audio]]></lookup>
+ 	<lookup key="DialerType.Bluetooth"><![CDATA[Bluetooth]]></lookup>
+ 	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+ 	<lookup key="DialerType.Video"><![CDATA[Video]]></lookup>
+
+  <!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[Setări sistem]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[Introduceți o valoare.]]></lookup>
+
+  <!--MercuryFusionSettings.html 08/31/2016-->
+
+	<lookup key="FusionSettings"><![CDATA[Setări Fusion]]></lookup>
+	<lookup key="FusionCloudUrl"><![CDATA[URL cloud Fusion]]></lookup>
+
+  <!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[General]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[Activare Bluetooth]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[Activare USB]]></lookup>
+
+  <!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[Setări afișaj video]]></lookup>
+
+  <!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[Particularizare generală UX]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[Ascunde subiect de întâlnire]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[Ascunde organizator întâlnire]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[Afișare transmisie neurgentă]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[Sunet transmisie de urgență]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[Activare notificare apel]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[Pauză transmisie urgentă]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[Pauză transmisie neurgentă]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[Suprimare perioadă de notificare offline]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[Perioadă de notificare]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[Pauză notificare apel]]></lookup>
+
+  <!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[Particularizare ecran de prezentare]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[Timp rămas până la începerea mesajului]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[Perioadă rămasă din durata mesajului]]></lookup>
+
+  <!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[Particularizare ecran grafic cameră]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[Afișare informații despre următoarea întâlnire]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[Minute înainte de începerea întâlnirii]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[Ascunde conexiune cablu cu fir]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[Detalii conectare cablu]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[Activare grafică siglă personalizată]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[URL grafică siglă personalizată]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[Activare fundaluri particularizate]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[Adăugare URL fundal particularizat]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[URL 1 fundal]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[URL 2 fundal]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[URL 3 fundal]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[URL 4 fundal]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[URL 5 fundal]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[URL 6 fundal]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[URL 7 fundal]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[URL 8 fundal]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[URL 9 fundal]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[URL 10 fundal]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[URL 11 fundal]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[URL 12 fundal]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[URL 13 fundal]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[URL 14 fundal]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[URL 15 fundal]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[Interval între fundaluri]]></lookup>
+  
+  
+<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[Nume dispozitiv Bluetooth]]></lookup>
+
+<!-- MercuryExternalSettings.html 11/18/2016-->
+
+<lookup key="CalendarSettings"><![CDATA[Setări calendar]]></lookup>
+<lookup key="SchedulingType"><![CDATA[Tip programare]]></lookup>
+<lookup key="OutlookWebAccessUrl"><![CDATA[URL acces web Outlook]]></lookup>
+<lookup key="OutlookDomainName"><![CDATA[Denumire domeniu Outlook]]></lookup>
+<lookup key="OutlookUserEmailAddress"><![CDATA[Adresă e-mail Outlook utilizator]]></lookup>
+<lookup key="OutlookPassword"><![CDATA[Parolă Outlook]]></lookup>
+<lookup key="OutlookResourceAddress"><![CDATA[Adresă resursă Outlook]]></lookup>
+
+<lookup key="SntpServer"><![CDATA[Server SNTP]]></lookup>
+<lookup key="SntpUpdateInterval"><![CDATA[Interval actualizare SNTP]]></lookup>
+<lookup key="ValidUrlMessage"><![CDATA[Introduceți un URL valid]]></lookup>
+<lookup key="ValidDomainName"><![CDATA[Introduceți un nume de domeniu valid]]></lookup>
+<lookup key="ValidEmailUrlMessage"><![CDATA[Introduceți o adresă de email validă]]></lookup>
+<lookup key="ValidPassword"><![CDATA[Introduceți o parolă validă]]></lookup>
+<lookup key="ValidSntpServer"><![CDATA[Introduceți un server SNTP valid]]></lookup>
+<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[Introduceți un interval server SNTP valid]]></lookup>
+<lookup key="ValidOutlookResourceAddress"><![CDATA[Introduceți o adresă resursă Outlook validă]]></lookup>
+
+<!-- DMPS 4k300C 12/08/2016-->
+<lookup key="DeviceType.VideoServer"><![CDATA[Server video]]></lookup>
+<lookup key="DeviceType.Dialer"><![CDATA[Sistem de apelare]]></lookup>
+<lookup key="ImageCouldNotBeLoaded"><![CDATA[Nu s-a putut încărca imaginea]]></lookup>
+<lookup key="VerifingImage"><![CDATA[Verificare imagine]]></lookup>
+<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[Tip programare schimb]]></lookup>
+
+<!-- MercuryDialerSettings.html 12/12/2016-->
+<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[Introduceți un nume al dispozitivului Bluetooth valid.]]></lookup>
+
+<!-- MercuryExternalSettings.html 12/15/2016-->
+<lookup key="FusionCloudURL"><![CDATA[URL cloud Fusion]]></lookup>
+
+<!-- Default Inputs 12/20/2016-->
+<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+<lookup key="DefaultInput"><![CDATA[Intrare implicită]]></lookup>
+
+<!-- Blutooth Page 1/9/2017 -->
+<lookup key="PresentConnectYourDevice"><![CDATA[Conectați-vă dispozitivul]]></lookup>
+
+
+<lookup key="DisableSip"><![CDATA[Dezactivare audio]]></lookup>
+<lookup key="DisableBluetooth"><![CDATA[Dezactivare Bluetooth]]></lookup>
+<lookup key="DisableUsb"><![CDATA[Dezactivare USB]]></lookup>
+
+<!-- Standby Mode 2/1/2017 -->
+<lookup key="Standby"><![CDATA[În așteptare]]></lookup>
+<lookup key="StandbyMode.AlwaysOn"><![CDATA[Întotdeauna pornit]]></lookup>
+<lookup key="StandbyMode.OccupancyBased"><![CDATA[Pe baza ratei de ocupare]]></lookup>
+
+<lookup key="DisplayNameIsRequired"><![CDATA[Numele afișat este obligatoriu]]></lookup>
+<lookup key="PowerOffCommandValidationMessage"><![CDATA[Decuplarea comenzii este obligatorie]]></lookup>
+<lookup key="PowerOnCommandValidationMessage"><![CDATA[Cuplarea comenzii este obligatorie]]></lookup>
+<lookup key="SourceSelectCommandValidationMessage"><![CDATA[Selectarea sursei este obligatorie]]></lookup>
+
+
+</lang>

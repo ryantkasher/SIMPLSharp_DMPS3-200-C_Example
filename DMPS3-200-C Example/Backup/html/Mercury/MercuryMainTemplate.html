@@ -1,0 +1,163 @@
+﻿<!-- 
+    Copyright (C) 2015 to the present, Crestron Electronics, Inc.
+    All rights reserved.
+    No part of this software may be reproduced in any form, machine
+    or natural, without the express written consent of Crestron Electronics.
+-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="AVF" >
+<!--DIR="RTL"-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Crestron AV Framework">
+    <title><?view Title ?></title>
+
+    <!-- Bootstrap Core CSS -->
+    <!--<link href="../css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- Custom CSS -->
+    <!--<link href="../css/simple-sidebar.css" rel="stylesheet">-->
+    
+	<!-- ../Hydrogen CSS -->
+	<link rel="stylesheet" type="text/css" href="../Hydrogen/theme/theme.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/layout/css/core-layout.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/layout/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/layout/css/nanoscroller.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/layout/css/olympos-font.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/layout/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/layout/css/olympos-layout.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/primeui/primeui-ng-all.min.css" />
+    
+    <!-- CUSTOM CRESTRON ../Hydrogen CSS -->
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/layout/css/crestron-layout.css">
+    <link rel="stylesheet" type="text/css" href="../Hydrogen/theme/crestron-theme.css">
+
+    
+    
+    <!-- Mercury CSS -->
+    <!--<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />-->
+
+    <link href="../css/angular-moment-picker.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="../css/local.css" />
+    <link rel="stylesheet" type="text/css" href="../css/site.css" />
+    
+        <!-- AVF CSS -->
+    <link href="../css/Avf.css" rel="stylesheet">
+	
+    <!--<script type="text/javascript" src="/Mercury/lib/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/Mercury/lib/bootstrap/js/bootstrap.min.js"></script>-->
+<!--	<script type="text/javascript" src="js/commonpage.js"></script>
+    <script type="text/javascript" src="js/cres_dm_error.js"></script> -->
+    
+        
+
+    
+    
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery -->
+    <script src="../js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/angular-messages.js"></script>
+    <script src="../js/sha1.js"></script>
+    <script src="../js/angular-linq.min.js"></script>
+    <script src="../js/jquery.blockUI.js"></script>
+    <script src="../js/ng-table.min.js"></script>
+    <script src="../js/moment-with-locales.js"></script>
+    <script src="../js/angular-moment-picker.min.js"></script>
+
+    
+    <script src="../js/avf.js"></script>
+    <script src="../js/Consts.js"></script>
+    <!--<script src="../js/LoginController.js"></script>-->
+    <script src="../js/DataService.js"></script>
+    <script src="../js/ConfigController.js"></script>
+    <script src="../js/LdapSettingsController.js"></script>
+    <script src="../js/MenuService.js"></script>
+    <!--<script src="../js/StatusConroller.js"></script>-->
+<!--    <script src="../js/Menu.js"></script>-->
+    <script src="../js/MessageService.js"></script>
+    <script src="../js/ActivityLogController.js"></script>
+    <script src="../js/OnlineOfflineService.js"></script>
+    <script src="../js/ActivationController.js"></script>
+    <script src="../js/DeviceStatusService.js"></script>
+    
+    
+<!--    <script type="text/javascript" src="jquery.linq.min.js"></script>
+    <script type="text/javascript" src="linq.min.js"></script>-->
+    <!-- Menu Toggle Script -->
+    <script type="text/javascript">
+        
+        $("#menu-toggle").click(function(e)
+        {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+
+
+        angular.module('AVF')
+            .constant("JavaScriptConstants", 
+            <?view JavaScriptConstants ?>
+        );
+
+        
+    </script>
+    <style>
+        [ng\:cloak], [ng-cloak], .ng-cloak {
+          display: none !important;
+        }
+        
+    </style>
+	<!-- ../Hydrogen Script-->
+		<!-- JS Libraries -->
+	<!--inject:js-->
+<!--    <script src="lib.min.js"></script>
+    <script src="bundle.min.js"></script>-->
+    <!--endinject-->
+    <script>
+//        System.import('app').catch(function (err) {
+//            console.error(err);
+//        });
+        
+    </script>
+	<!-- End ../Hydrogen Script -->
+</head>
+<body  class="crux mercuryAvf" style="background-color:white" ng-controller="ActivationController">
+
+    <br/>
+    <br/>
+<h4><div style="text-align: center;" ><span class="<?view ConfiguredMessageClass ?>" id="ConfiguredMessage" ><?view ConfiguredMessage ?></span></div></h4>
+
+<script>
+    var currentSystemState = '<?view SystemState ?>';
+</script>
+   
+    <div class="mycres-center-stage">
+        <?view InnerHtml ?>
+    </div>
+<br>
+<br>
+<br>
+<!--<div class="navbar navbar-default navbar-fixed-bottom">
+		<br />
+    <p align="center" >	<small><?culture Version ?> <?view Version ?>&nbsp;&nbsp;&nbsp;© 2016 Crestron Electronics, Inc.</p>
+
+</div>-->
+   
+<div ng-include="'../Modal.html'" ></div>
+
+    
+    
+</body>	
+</html>
+	

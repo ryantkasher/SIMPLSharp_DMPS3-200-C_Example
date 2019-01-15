@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="zh_TW" name="Chinese" variant="Traditional">
+	<include file="zh_TW_Common_Text.xml"/>
+	<include file="zh_TW_Scheduling_Calendar.xml"/>
+
+	<fontface name="Crestron Sans Pro"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Sans Pro Light"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Sans Pro Semibold"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Serif"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Mono"><![CDATA[Crestron Unicode]]></fontface>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[繁體中文]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[AV Framework]]></lookup>
+	<lookup key="signin"><![CDATA[登入]]></lookup>
+  
+	
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[請等待系統初始化…]]></lookup>
+	
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[立即預約]]></lookup>
+	
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[當天剩餘時間]]></lookup>
+	
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[新增會議]]></lookup>
+	
+	<!-- 002_Home_Fusion_Offline -->
+	
+	<!-- 002_Home_Meeting_InProgress -->
+	
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[正在進行]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[加入會議]]></lookup>
+	
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[撥打電話]]></lookup>
+	
+	<!-- 003_Call_Video_Directory -->
+	
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[視訊通話中]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[停用視訊]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+	
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+	
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[語音通話中]]></lookup>
+	
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+	
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[來電]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[結束目前通話 + 接聽]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[不接]]></lookup>
+	
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[接聽]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[不接]]></lookup>
+	
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[選擇顯示的信號源]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[彈出功能表]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[頂層功能表]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[退出]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[信號源]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[正在簡報]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[停止簡報]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[智慧型電視]]></lookup>
+		
+	<!-- 005_Present_BluRay_Keypad -->
+	 
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[正在播放信號源]]></lookup>
+	
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[連接筆記型電腦]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[正在將筆記型電腦連接至]]></lookup>
+	
+	<!-- 005_Present_PC -->
+	
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[電視調諧器]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[指南]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+	
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[筆記型電腦]]></lookup>
+	
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[為保護隱私將麥克風靜音]]></lookup>
+	
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[調整目前通話]]></lookup>
+	
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[所有顯示器將關閉，而且音訊將靜音。]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[系統自動關閉的時間剩餘：]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[關閉]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[繼續使用]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[正在關閉]]></lookup>
+    
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+  
+  <!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[切換導覽]]></lookup>
+  
+  <!-- login.html -->
+	<lookup key="Username"><![CDATA[使用者名稱]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[請登入]]></lookup>
+	<lookup key="Password"><![CDATA[密碼]]></lookup>
+	<lookup key="Required"><![CDATA[必填]]></lookup>
+	
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[新增裝置]]></lookup>
+	<lookup key="DeviceType"><![CDATA[裝置類型]]></lookup>
+	<lookup key="ChannelName"><![CDATA[頻道名稱]]></lookup>
+	<lookup key="DisplayName"><![CDATA[顯示名稱]]></lookup>
+	<lookup key="Model"><![CDATA[型號]]></lookup>
+	<lookup key="Control"><![CDATA[控制]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[連接埠]]></lookup>
+	<lookup key="DevicePort"><![CDATA[裝置連接埠]]></lookup>
+	<lookup key="Channel"><![CDATA[頻道]]></lookup>
+	<lookup key="IPID"><![CDATA[IPID]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[數位媒體]]></lookup>
+	<lookup key="Resolution"><![CDATA[解析度]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[顯示模式]]></lookup>
+	<lookup key="UsbPort"><![CDATA[USB 連接埠]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[傳輸速率]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[IPID 所需格式 (03-FE)。]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[IP 位址所需格式 (#.#.#.#)。]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[連接埠所需格式 (0-65535)。]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[頻道所需格式 (0-255)。]]></lookup>
+  
+  <!--ConfigStep1.html-->
+  
+	<lookup key="SystemSetup"><![CDATA[系統設定]]></lookup>
+	<lookup key="RoomName"><![CDATA[房間名]]></lookup>
+	<lookup key="Locale"><![CDATA[地區設定]]></lookup>
+	<lookup key="SupportsFusion"><![CDATA[支援 Fusion]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Fusion 房間名]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Fusion 連線]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[允許通話]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[啟用 DSP 音量控制]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[啟用燈光]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[時間格式]]></lookup>
+	<lookup key="24Hour"><![CDATA[24 小時]]></lookup>
+	<lookup key="12hour"><![CDATA[12 小時]]></lookup>
+	<lookup key="DateFormat"><![CDATA[日期格式]]></lookup>
+  
+  <!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[裝置]]></lookup>
+	<lookup key="Name"><![CDATA[名稱]]></lookup>
+	<lookup key="Type"><![CDATA[類型]]></lookup>
+	<lookup key="Transport"><![CDATA[傳輸]]></lookup>
+	<lookup key="Driver"><![CDATA[驅動程式]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[傳輸詳細資料]]></lookup>
+	<lookup key="Serial"><![CDATA[序列]]></lookup>
+	<lookup key="Delete"><![CDATA[刪除]]></lookup>
+	<lookup key="Add"><![CDATA[新增]]></lookup>
+	<lookup key="Previous"><![CDATA[先前]]></lookup>
+  
+  <!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[輸入]]></lookup>
+	<lookup key="Icon"><![CDATA[圖示]]></lookup>
+	<lookup key="Enabled"><![CDATA[已啟用]]></lookup>
+	<lookup key="Rank"><![CDATA[排序]]></lookup>
+	<lookup key="Device"><![CDATA[裝置]]></lookup>
+	<lookup key="Endpoint"><![CDATA[端點]]></lookup>
+	<lookup key="Outputs"><![CDATA[輸出]]></lookup>
+
+  <!-- ConfigStep4.html (01/28/2016 ) -->  
+	<lookup key="DownloadConfiguration"><![CDATA[下載設定]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[上傳設定]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[啟動設定]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[回復設定]]></lookup>
+  
+  <!--Index.html-->
+	<lookup key="Welcome"><![CDATA[歡迎使用 AV Framework 2.0]]></lookup>
+
+  <!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[乙太網路資訊]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[切換器資訊]]></lookup>
+	<lookup key="InputChannels"><![CDATA[輸入頻道]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[連接的裝置]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[輸出頻道]]></lookup>
+	<lookup key="HostName"><![CDATA[主機名稱]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[預設路由器]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[子網路遮罩]]></lookup>
+
+  <!--JavaScript-->
+	<lookup key="Error"><![CDATA[錯誤]]></lookup>
+	<lookup key="Notice"><![CDATA[注意]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[儲存時可能發生問題。]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[系統已達該裝置數目的上限 ({0})。]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[請先指定裝置類型。]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[有未儲存的變更。]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[使用者名稱/密碼無效。]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[無法設定未控制/停用的裝置。]]></lookup>
+  
+    <!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[警告]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[確定要刪除此裝置嗎？]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[確定要啟動此設定嗎？]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[確定要回復此設定嗎？]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[{0} 已經使用。]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[此檔案過大。]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[檔案格式不正確。]]></lookup>
+	<lookup key="Success"><![CDATA[成功]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[設定已更新。]]></lookup>
+
+  <!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[登出]]></lookup>
+	<lookup key="Configure"><![CDATA[設定]]></lookup>
+  <!-- Web Menu System (01/28/2016 ) -->  
+	<lookup key="NetworkStatus"><![CDATA[網路狀態]]></lookup>
+	<lookup key="Switch"><![CDATA[開關]]></lookup>
+	<lookup key="System"><![CDATA[系統]]></lookup>
+  
+  
+  <!-- 01/19/2016, enums for web page -->
+  <!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[已停用]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[未控制]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[藍光]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[纜線]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[已停用]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[未控制]]></lookup>
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[AV 顯示]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[Connect It]]></lookup>
+
+  <!-- ComBaudRate -->
+    <lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38400]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28800]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14400]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4800]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2400]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1800]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1200]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+    <lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+  
+  <!-- DateFormat -->
+	<lookup key="DateFormat.MMDDYY"><![CDATA[1月 15日 2017年]]></lookup>
+	<lookup key="DateFormat.DDMMYY"><![CDATA[15日 1月 2017年]]></lookup>
+	<lookup key="DateFormat.YYMMDD"><![CDATA[2017年 1月 15日]]></lookup>
+  
+  <!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[未知]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[上線]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[離線]]></lookup>
+  
+  <!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[切換器]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[端點傳輸]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[端點接收]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[端點接收計數器]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[AV 顯示]]></lookup>
+	<lookup key="DeviceType.Bluray"><![CDATA[藍光]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[有線電視]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[按鈕面板]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[面板]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[佔用器]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[按鍵]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[按鍵 USB]]></lookup>
+  
+  <!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[維護]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[延伸]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[縮放]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[無]]></lookup>
+  
+   <!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[紅外線]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[串行]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+  <!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[EDID 首選]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[無]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[解析度 640x480 PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[解析度 720x480p NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[解析度 720x576i PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[解析度 720x576p PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[解析度 800x600 PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[解析度 848x480 PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[解析度 1024x768 PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[解析度 1280x720p PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[解析度 1280x720p NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[解析度 1280x768 PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[解析度 1280x768 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[解析度 1280x800 PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[解析度 1280x800 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[解析度 1280x960 PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[解析度 1280x1024 PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[解析度 1360x768 PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[解析度 1366x768 PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[解析度 1366x768 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[解析度 1400x1050 PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[解析度 1400x1050 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[解析度 1440x900 PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[解析度 1440x900 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[解析度 1600x900 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[解析度 1600x1200 PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[解析度 1680x1050 PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[解析度 1680x1050 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[解析度 1920x1080i PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[解析度 1920x1080i NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[解析度 1920x1080p PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[解析度 1920x1080p NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[解析度 1920x1200 PC Rb]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[解析度 2048x1152 PC Rb]]></lookup>
+  
+  <!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[管理者]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[驅動程式更新]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[使用者]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[未授權]]></lookup>
+  
+  <!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[未知]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[未設定]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[正在設定]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[已設定]]></lookup>
+  
+  <!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[無]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[Crestron 內部]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[串行]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[串行波特率]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[串行信道]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[紅外線]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+  
+  <!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[未定義]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[單模光纖]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[光纖]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[聲音]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[複合端子]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[顯示連接埠]]></lookup>
+
+  
+  <!-- 02/11/2016 -->
+  
+  <!--ConfigStep3.html -->
+	<lookup key="DeviceName"><![CDATA[裝置名稱]]></lookup>
+  
+  <!-- Web Logger : new added  -->  
+	<lookup key="ActivityLog"><![CDATA[活動記錄]]></lookup>
+	<lookup key="NoFilter"><![CDATA[無篩選器]]></lookup>
+	<lookup key="Info"><![CDATA[資訊]]></lookup>
+	<lookup key="Debug"><![CDATA[偵錯]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[篩選運算式]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[停止捲動]]></lookup>
+	<lookup key="Scrolling"><![CDATA[捲動]]></lookup>
+	<lookup key="Download"><![CDATA[下載]]></lookup>
+  
+	<lookup key="ClearSearchMessage"><![CDATA[清除搜尋]]></lookup>
+	<lookup key="Search"><![CDATA[搜尋]]></lookup>
+	<lookup key="SearchLog"><![CDATA[搜尋記錄]]></lookup>
+	<lookup key="Clear"><![CDATA[清除]]></lookup>
+
+  
+  <!-- 02/29/2016 -->   
+  
+  <!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+  
+  <!-- AddNewDevice.html -->
+
+	<lookup key="UseSensorTimeout"><![CDATA[使用感應器逾時]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[逾時分鐘數]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[開啟系統]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[關閉系統]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[傳輸預設視訊]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[開啟電源命令]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[關閉電源命令]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[設定來源命令]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[開啟電源延遲秒數]]></lookup>
+	<lookup key="Seconds"><![CDATA[秒]]></lookup>
+
+  <!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[繼電器行為]]></lookup>
+	<lookup key="RelayNotes1"><![CDATA[選取視訊來源或關閉系統時，將傳送繼電器命令。]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[將布幕上升連接到繼電器 1，並將布幕下降連接到繼電器 2]]></lookup>
+
+  <!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[停用]]></lookup>
+	<lookup key="Enable"><![CDATA[啟用]]></lookup>
+ 
+  <!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[注意：使用 \n 另起新行或使用 \r 歸位。]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[請輸入有效的逾時時間。]]></lookup>
+
+  <!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[撥號程式]]></lookup>
+	<lookup key="Relay"><![CDATA[繼電器]]></lookup>
+	<lookup key="Lighting"><![CDATA[燈光]]></lookup>
+
+  <!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[是 (預設)]]></lookup>
+
+  <!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[管理設定]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[備份/還原]]></lookup>
+
+  <!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[快撥鍵]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[快撥鍵]]></lookup>
+	<lookup key="Number"><![CDATA[號碼]]></lookup>
+	<lookup key="OneTouch"><![CDATA[一鍵觸控]]></lookup>
+	<lookup key="Regex"><![CDATA[Regex]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[啟用的快速鍵需要名稱和編號。]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[請輸入有效的電話號碼。]]></lookup>
+
+  <!--FusionSettings.html  -->
+  
+	<lookup key="EnableFusionScheduling"><![CDATA[啟用 Fusion Scheduling]]></lookup>
+	<lookup key="RoomNameRequired"><![CDATA[需要房間名稱]]></lookup>
+
+  <!--LightingSettings.html -->
+
+	<lookup key="LightingPresets"><![CDATA[燈光預設]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[啟用的預設需要名稱。]]></lookup>
+
+  <!-- 03/09/2016 -->   
+  <!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[回授抑制]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[轉碼器]]></lookup>
+
+  <!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[編輯裝置]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[您的變更將在 {0} 秒內套用。]]></lookup>
+
+
+  <!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[下列裝置<br> {0} <br> 使用這個進行設定，是否繼續？]]></lookup>
+
+  <!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[Crestnet ID]]></lookup>  
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Crestnet ID 所需格式 (03-FF)。]]></lookup>
+
+  <!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[設備]]></lookup>
+  
+  <!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[CrestronCrestnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[自訂 Serial 包率]]></lookup>
+  
+  <!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[短暫]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[鎖定]]></lookup>
+  
+  <!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[已停用]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[已啟用]]></lookup>
+  
+  <!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[延遲所需格式 (0-255)。]]></lookup>
+  
+  <!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[與裝置通訊時發生錯誤。]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[伺服器正在更新，請稍候。]]></lookup>
+  
+  <!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[下個可用時間]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[當天剩餘可用時間]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[預訂下個可用時間]]></lookup>
+	<lookup key="HourLabel"><![CDATA[小時]]></lookup>
+	<lookup key="MinLabel"><![CDATA[分鐘]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[下一個]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[剩餘分鐘數 | 下一個：]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[使用無線方式簡報]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[訪問：]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[代碼：]]></lookup>
+	<lookup key="CableLabel"><![CDATA[使用有線方式簡報]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[提供有線方式連線:]]></lookup>
+  
+  <!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[系統離線中，請啟動或回復設定。]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[系統離線中。]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[系統連線中。]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[系統已設定。]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[系統已設定。]]></lookup>
+	<lookup key="ConfigurationText"><![CDATA[系統正在設定，請稍候…]]></lookup>
+  
+  <!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[任何儲存的更改將使系統離線。 您/用戶必須啟動新配置才能使系統連線。 點擊“確定”繼續。]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[端口未配置]]></lookup>
+	<lookup key="Version"><![CDATA[版本]]></lookup>
+	<lookup key="None"><![CDATA[無]]></lookup>
+  
+	<lookup key="AssociatedChannel"><![CDATA[相關頻道]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[主要頻道]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[第二頻道]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[第二頻道]]></lookup>
+	<lookup key="IPAddress"><![CDATA[IP 位址]]></lookup>
+  
+  <!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+  
+  <!-- 08/15/2016 -->
+ 	<lookup key="DialerType.Sip"><![CDATA[SIP]]></lookup>
+ 	<lookup key="DialerType.Bluetooth"><![CDATA[藍牙]]></lookup>
+ 	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+ 	<lookup key="DialerType.Video"><![CDATA[影像]]></lookup>
+
+  <!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[系統設定]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[請輸入數值。]]></lookup>
+
+  <!--MercuryFusionSettings.html 08/31/2016-->
+
+	<lookup key="FusionSettings"><![CDATA[Fusion 設定]]></lookup>
+	<lookup key="FusionCloudUrl"><![CDATA[Fusion 雲端 URL]]></lookup>
+
+  <!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[一般]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[啟用藍牙]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[啟用 USB]]></lookup>
+
+  <!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[影像顯示設定]]></lookup>
+
+  <!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[UX 一般自訂]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[隱藏會議主題]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[隱藏會議發起人]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[顯示非緊急廣播]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[緊急廣播音效]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[啟用來電通知]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[緊急廣播逾時]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[非緊急廣播逾時]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[抑制離線通知期間 ]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[通知期間]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[來電通知逾時]]></lookup>
+
+  <!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[自訂簡報畫面]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[剩餘時間顯示訊息]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[剩餘時間訊息期間]]></lookup>
+
+  <!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[自訂房間排程畫面]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[顯示下一個會議資訊]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[分鐘後開始會議]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[隱藏有線連線]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[線路連線資訊]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[啟用自訂標誌圖形]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[自訂標誌圖形 URL]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[啟用自訂背景]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[新增自訂背景 URL]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[背景 URL 1]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[背景 URL 2]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[背景 URL 3]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[背景 URL 4]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[背景 URL 5]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[背景 URL 6]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[背景 URL 7]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[背景 URL 8]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[背景 URL 9]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[背景 URL 10]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[背景 URL 11]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[背景 URL 12]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[背景 URL 13]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[背景 URL 14]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[背景 URL 15]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[背景間隔]]></lookup>
+  
+  
+<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[藍芽設備名稱]]></lookup>
+
+<!-- MercuryExternalSettings.html 11/18/2016-->
+
+<lookup key="CalendarSettings"><![CDATA[日曆設定]]></lookup>
+<lookup key="SchedulingType"><![CDATA[日程類型]]></lookup>
+<lookup key="OutlookWebAccessUrl"><![CDATA[Outlook Web Access URL]]></lookup>
+<lookup key="OutlookDomainName"><![CDATA[Outlook 網域名稱]]></lookup>
+<lookup key="OutlookUserEmailAddress"><![CDATA[Outlook 電子郵件地址]]></lookup>
+<lookup key="OutlookPassword"><![CDATA[Outlook 密碼]]></lookup>
+<lookup key="OutlookResourceAddress"><![CDATA[Outlook 來源位址]]></lookup>
+
+<lookup key="SntpServer"><![CDATA[SNTP 伺服器]]></lookup>
+<lookup key="SntpUpdateInterval"><![CDATA[SNTP 更新間隔]]></lookup>
+<lookup key="ValidUrlMessage"><![CDATA[請輸入有效的 URL]]></lookup>
+<lookup key="ValidDomainName"><![CDATA[請輸入有效的網域名稱]]></lookup>
+<lookup key="ValidEmailUrlMessage"><![CDATA[請輸入有效的電子郵件地址]]></lookup>
+<lookup key="ValidPassword"><![CDATA[請輸入有效的密碼]]></lookup>
+<lookup key="ValidSntpServer"><![CDATA[請輸入有效的 SNTP 伺服器]]></lookup>
+<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[請輸入有效的 SNTP 間隔]]></lookup>
+<lookup key="ValidOutlookResourceAddress"><![CDATA[請輸入有效的 Outlook 來源位址]]></lookup>
+
+<!-- DMPS 4k300C 12/08/2016-->
+<lookup key="DeviceType.VideoServer"><![CDATA[影像伺服器]]></lookup>
+<lookup key="DeviceType.Dialer"><![CDATA[撥號]]></lookup>
+<lookup key="ImageCouldNotBeLoaded"><![CDATA[無法載入影像。]]></lookup>
+<lookup key="VerifingImage"><![CDATA[圖片驗證]]></lookup>
+<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[日程類型 Exchange]]></lookup>
+
+<!-- MercuryDialerSettings.html 12/12/2016-->
+<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[請輸入有效的藍牙設備名稱。]]></lookup>
+
+<!-- MercuryExternalSettings.html 12/15/2016-->
+<lookup key="FusionCloudURL"><![CDATA[Fusion 雲端 URL]]></lookup>
+
+<!-- Default Inputs 12/20/2016-->
+<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+<lookup key="DefaultInput"><![CDATA[預設輸入]]></lookup>
+
+<!-- Blutooth Page 1/9/2017 -->
+<lookup key="PresentConnectYourDevice"><![CDATA[請連結設備]]></lookup>
+
+
+<lookup key="DisableSip"><![CDATA[停用SIP]]></lookup>
+<lookup key="DisableBluetooth"><![CDATA[停用藍牙]]></lookup>
+<lookup key="DisableUsb"><![CDATA[停用 USB]]></lookup>
+
+<!-- Standby Mode 2/1/2017 -->
+<lookup key="Standby"><![CDATA[待命]]></lookup>
+<lookup key="StandbyMode.AlwaysOn"><![CDATA[永遠開啟]]></lookup>
+<lookup key="StandbyMode.OccupancyBased"><![CDATA[根據在場]]></lookup>
+
+<lookup key="DisplayNameIsRequired"><![CDATA[必須有顯示器名稱]]></lookup>
+<lookup key="PowerOffCommandValidationMessage"><![CDATA[必須有關閉電源命令]]></lookup>
+<lookup key="PowerOnCommandValidationMessage"><![CDATA[必須有開啟電源命令]]></lookup>
+<lookup key="SourceSelectCommandValidationMessage"><![CDATA[必須選擇來源]]></lookup>
+
+
+</lang>

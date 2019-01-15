@@ -1,0 +1,96 @@
+<!-- 
+    Copyright (C) 2015 to the present, Crestron Electronics, Inc.
+    All rights reserved.
+    No part of this software may be reproduced in any form, machine
+    or natural, without the express written consent of Crestron Electronics.
+-->
+
+<div class="row form-group col-xs-12" ng-init="NoBusyMesssageDuringSave();GetPresentationScreenCustomization(DefaultRoomId)" ng-controller="ConfigController">
+<div class="Container100">
+    <div class="ContainerIndent">
+        <div class="ui-grid-col-12">
+       <form class="crestron-maincontent-form" id="Config.PresentationScreenCustomizationForm" name="Config.PresentationScreenCustomizationForm" role="form">
+            <fieldset class="ui-fieldset ui-widget ui-widget-content ui-corner-all">
+
+
+                    <legend class="ui-fieldset-legend ui-corner-all ui-state-default ui-unselectable-text">
+                        <?culture PresentationScreenCustomization ?>
+                    </legend>
+                <div class="ui-fieldset-content-wrapper">
+                    <div class="ui-fieldset-content">
+                        <div class="ui-grid ui-grid-responsive ui-grid-pad">
+                            <div class="form-group ui-grid-row">
+                                <div class="ui-grid-col-4" >
+                                    <label class="ui-outputlabel"  for="DialerConfig.DisableSip"><?culture EnableCallNotification ?></label>
+                                </div>
+                                <div class="ui-grid-col-8">
+                                    <input type="checkbox"  class="mercury-checkbox" name="PresentationScreenCustomization_EnableCallNotification" id="PresentationScreenCustomization.EnableCallNotification" ng-model="PresentationScreenCustomization.EnableCallNotification">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group ui-grid-row">
+                                <div class="ui-grid-col-4" >
+                                    <label class="ui-outputlabel"  for="DialerConfig.DisableSip"><?culture CallNotificationTimeout ?></label>
+                                </div>
+                                <div class="ui-grid-col-8"  style="-moz-user-select: none;">
+                                    <span>
+                                        <input type="number" min="0" max="60" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled  SmallText " name="PresentationScreenCustomization_CallNotificatioTimeout" id="Number1" placeholder=" " ng-model="PresentationScreenCustomization.CallNotificationTimeout" required /><span class="volume-units-db">&nbsp;&nbsp;<?culture Seconds ?></span>
+                                    </span>
+                                    <span class="alert alert-danger" ng-show="Config.PresentationScreenCustomizationForm.PresentationScreenCustomization_CallNotificatioTimeout.$invalid && Config.PresentationScreenCustomizationForm.PresentationScreenCustomization_CallNotificatioTimeout.$dirty">
+                                         <?culture CallNotificationTimeoutValidValueMessage ?></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group ui-grid-row">
+                                <div class="ui-grid-col-4" >
+                                    <label class="ui-outputlabel"  for="DialerConfig.DisableSip"><?culture TimeRemainingMessageStarts ?></label>
+                                </div>
+                                <div class="ui-grid-col-8"  style="-moz-user-select: none;">
+                                    <span>
+                                    <input type="number" min="0" max="60" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled  SmallText " name="PresentationScreenCustomization_TimeRemainingMessageStarts" id="Number2" placeholder=" " ng-model="PresentationScreenCustomization.TimeRemainingMessageStarts" required /><span class="volume-units-db">&nbsp;&nbsp;<?culture TimeMinutes ?></span>
+                                    </span>
+                                    <span class="alert alert-danger" ng-show="Config.PresentationScreenCustomizationForm.PresentationScreenCustomization_TimeRemainingMessageStarts.$invalid && Config.PresentationScreenCustomizationForm.PresentationScreenCustomization_TimeRemainingMessageStarts.$dirty">
+                                        <?culture TimeRemainingMessageStartsValidValueMessage ?></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group ui-grid-row">
+                                <div class="ui-grid-col-4" >
+                                    <label class="ui-outputlabel"  for="DialerConfig.DisableSip"><?culture TimeRemainingMessageDuration ?></label>
+                                </div>
+                                <div class="ui-grid-col-8"  style="-moz-user-select: none;">
+                                    <span>
+                                        <input type="number" min="0" max="60" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled  SmallText " name="PresentationScreenCustomization_TimeRemainingMessageDuration" id="Number3" placeholder=" " ng-model="PresentationScreenCustomization.TimeRemainingMessageDuration" required /><span class="volume-units-db">&nbsp;&nbsp;<?culture Seconds ?></span>
+
+                                    </span>
+                                    <span class="alert alert-danger" ng-show="Config.PresentationScreenCustomizationForm.PresentationScreenCustomization_TimeRemainingMessageDuration.$invalid && Config.PresentationScreenCustomizationForm.PresentationScreenCustomization_TimeRemainingMessageDuration.$dirty">
+                                        <?culture TimeRemainingMessageDurationValidValueMessage ?></span>
+                                </div>
+                            </div>                        
+                            
+  
+             
+                        
+      
+                            <div class="form-group ui-grid-row">
+                                    <div class="ui-grid-col-4" >
+                                        &nbsp;
+                                    </div>
+                                    <div class="ui-grid-col-8">
+                                        <button type="button" name="Save" id="controlSave" class="ui-button-text ui-c"ng-click="SavePresentationScreenCustomization(DefaultRoomId)" ng-disabled="( !Config.PresentationScreenCustomizationForm.$dirty || Config.PresentationScreenCustomizationForm.$invalid )">
+                                            <img class="crestron-subtitle-network-image" style="height:15px;width:15px;" src="../img/Save_All_btn_icn.png" ><?culture GeneralSave ?></button>
+                                    </div>
+                                </div>                        
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </fieldset> 
+            </form>
+        </div>
+    </div>
+    
+    </div>    
+
+</div>

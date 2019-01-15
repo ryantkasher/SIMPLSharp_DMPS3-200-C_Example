@@ -1,0 +1,52 @@
+<!--
+    Copyright (C) 2015 to the present, Crestron Electronics, Inc.
+    All rights reserved.
+    No part of this software may be reproduced in any form, machine
+    or natural, without the express written consent of Crestron Electronics.
+    -->
+    <!-- style="overflow-y:hidden;" -->
+<div  id="SearchLdapDialog" class="modal fade LdapDialog" role="dialog" tabindex="-1" style="overflow-y:hidden;"  >
+    <div class="modal-dialog" style="background-color:#f5f5f5;width:1000px;">        
+        <div class="modal-header" style="background-color:#00AEEF">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" style="text-align:center"><?culture SearchLdap ?></h4>
+        </div>
+        
+        <div class="modal-body" style="background-color:#ffffff;padding-top: 0px;padding-bottom: 10px;padding-right: 40px;padding-left: 20px;width: 1000px;">
+            
+            <form name="Config.SearchLdapForm" id='Config.SearchLdapForm'  novalidate role="form" class="form-horizontal"  role="form">
+                <br />
+                
+                
+                <div class="row">
+                    <div class="form-group col-xs-1" ></div>
+                    <label class="control-label col-xs-3" for="Ldap_Query"><?culture Query ?></label>
+                    <div class="form-group col-xs-5" >
+                        <input type="text" class="form-control input-group-lg " placeholder="<?culture SearchFor ?>" name="LdapSearch_SearchFor" required ng-model="LdapSearch.SearchFor"  id="LdapSearch.SearchFor" />
+                    </div>
+                    
+                    <div class="form-group col-xs-3">
+                        &nbsp;<button type="button" name="Search" id="Button4" class="ui-button-text ui-c"  ng-click="SearchLdap();" ng-disabled="ldapSearchBusy || !Config.SearchLdapForm.LdapSearch_SearchFor.$valid" style="margin-top:0.1em;margin-left:0.1em;">
+                                  <img class="crestron-subtitle-network-image" style="height:15px;width:15px;" src="../img/Save_All_btn_icn.png"  ><?culture GeneralSearch ?>
+                              </button>
+                    </div>
+                    
+                </div>
+            <table class="table table-bordered table-hover"  ng-table="ldapTableParams" show-filter="false" style="background-color:white;color: #6487A5;" >
+                <tbody>
+                    <tr ng-repeat="entry in $data">
+                        <td title="'<?culture Name ?>'"  sortable="'Name'">{{entry.Name}}</td>
+                        <td title="'<?culture Number ?>'"  sortable="'Number'">{{entry.Number}}</td>
+                        <td title="'<?culture Department ?>'"  sortable="'Department'">{{entry.Department}}</td>
+                        <td title="'<?culture Location ?>'"  sortable="'Location'">{{entry.Location}}</td>
+                    </tr>
+                </tbody>
+            </table>
+                <!--<i ng-if="ldapSearchBusy" class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>         -->
+                <i  ng-if="ldapSearchBusy"  class="fa fa-spinner fa-pulse fa-3x fa-fw" style="color: #6487A5;margin-bottom: 100px;margin-left:450px;"></i>         
+                <div  ng-if="!ldapSearchBusy && (ldapTableParams==null)"  style="margin-bottom: 100px;margin-left:450px;">&nbsp;</div>         
+
+            </form>
+        </div> 
+    </div> 
+</div> 

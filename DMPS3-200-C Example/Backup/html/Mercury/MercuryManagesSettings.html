@@ -1,0 +1,68 @@
+<!-- 
+    Copyright (C) 2015 to the present, Crestron Electronics, Inc.
+    All rights reserved.
+    No part of this software may be reproduced in any form, machine
+    or natural, without the express written consent of Crestron Electronics.
+    -->
+ 
+<style>
+label.myLabel input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+/***** Example custom styling *****/
+
+</style>
+<script type="text/javascript">
+    function getFile()
+    {
+        document.getElementById("fileToUpload").click();
+    }
+    function CallSendFile() {
+        
+        angular.element(document.getElementById('ConfigStep4')).scope().SendFile();
+    }
+    function CallShowComplete()
+    {
+        angular.element(document.getElementById('ConfigStep4')).scope().ShowComplete();
+    }
+
+</script>
+    
+            
+<div class="container-fluid" ng-app="AVF" ng-controller="ConfigController" id="ConfigStep4" ng-init="GetAvfConfig(DefaultRoomId);<?view ShowComplete ?>;" >
+<div class="Container100">
+    <div class="ContainerIndent">
+        <div class="ui-grid-col-12">
+            <fieldset class="ui-fieldset ui-widget ui-widget-content ui-corner-all">
+                <legend class="ui-fieldset-legend ui-corner-all ui-state-default ui-unselectable-text">
+                    <?culture ManageConfiguration ?>
+                </legend>
+                <div class="ui-fieldset-content-wrapper">
+                    <div class="ui-fieldset-content">
+                        <div class="ui-grid ui-grid-responsive ui-grid-pad">
+                            
+                            <div class="form-group ui-grid-row">
+                                <div class="ui-grid-col-3" >&nbsp;</div>
+                                <div class="ui-grid-col-4">
+                                    <button class="ui-button-text ui-c"  ng-disabled="RoomDetails.SystemState == SystemState.Configured" ng-click="AskConfirmActivate(DefaultRoomId);"><?culture ActivateConfiguration ?></button>          
+                                </div>
+                                <div class="ui-grid-col-4" >
+                                    <button class="ui-button-text ui-c" ng-disabled="(RoomDetails.SystemState == SystemState.Configured) ||RoomDetails.SystemState == SystemState.UnConfigured" ng-click="AskConfirmRevert();"><?culture RevertConfiguration ?></button>   
+                                </div>
+                                <div class="ui-grid-col-1" >&nbsp;</div>
+                            </div>
+              
+                        </div>      
+                    </div>  
+                </div>      
+            </fieldset>
+            </div>      
+        </div>  
+    </div>      
+</div>   
+    
+
+  
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="nl_NL" name="Dutch" variant="Netherlands">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[nl_NL]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Minuut]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Uur]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Dag]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Minuten]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Uren]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Dagen]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Maandag]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Dinsdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Woensdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Donderdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Vrijdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Zaterdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Zondag]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Januari]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Februari]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Maart]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[April]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Mei]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Juni]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Juli]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[Augustus]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[September]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Oktober]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[November]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[December]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Resterend]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Wachtend op Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Online]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Offline]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Offline sinds]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Gereserveerd]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Beschikbaar]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[Binnen de duur van de vergadering]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Bezet]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Vrij]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Onderwerp:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[organisator:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Starttijd]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Eindtijd]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[start om:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[eindigt om:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Duur]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Beëindig nu]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Verlengen]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Geen vergadering geselecteerd]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Nieuwe vergadering]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Annuleren]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Bevestigen]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Toevoegen]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Vergadering bijwonen]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Deze vergadering is privé]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Privé]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Privé]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Aanwezigen]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Vereist]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Optioneel]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Geen aanwezigen gerapporteerd]]></lookup>
+
+</lang>

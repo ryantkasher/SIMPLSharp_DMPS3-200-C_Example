@@ -1,0 +1,11 @@
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\DMPS3200C_Example.dll
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\DMPS3200C_Example.pdb
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.dll
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\Crestron.SimplSharpPro.DM.dll
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\Crestron.SimplSharpPro.UI.dll
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\SimplSharpCustomAttributesInterface.dll
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\SimplSharpHelperInterface.dll
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\bin\Debug\SimplSharpPro.exe
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\obj\Debug\ResolveAssemblyReference.cache
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\obj\Debug\DMPS3200C_Example.dll
+C:\zFolders\zDEV\SS\ControlSystems\DMPS3200C_Example\DMPS3200C_Example\obj\Debug\DMPS3200C_Example.pdb

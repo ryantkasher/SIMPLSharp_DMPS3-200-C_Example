@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="pl_PL" name="Polish" variant="Polish">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[pl_PL]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Minuta]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Godzina]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Dzień]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Minuty]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Godziny]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Dni]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Poniedziałek]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Wtorek]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Środa]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Czwartek]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Piątek]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Sobota]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Niedziela]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Styczeń]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Luty]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Marzec]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[Kwiecień]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Maj]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Czerwiec]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Lipiec]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[Sierpień]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[Wrzesień]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Październik]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[Listopad]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[Grudzień]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Pozostało]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Oczekuje na Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Online]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Offline]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Offline od]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Zarezerwowano]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Dostępne]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[Mieści się w progu dla spotkania]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Zajęte]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Wolne]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Temat:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[organizator:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Godzina rozpoczęcia]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Godzina zakończenia]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[rozpoczyna się o:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[kończy się o:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Czas trwania]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Zakończ teraz]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Wydłuż]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Nie wybrano spotkania]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Nowe spotkanie]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Anuluj]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Potwierdź]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Dodaj]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Dołącz do spotkania]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[To spotkanie jest prywatne]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Prywatne]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Prywatne]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Uczestnicy]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Wymagane]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Opcjonalne]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Brak zgłoszonych uczestników]]></lookup>
+
+</lang>

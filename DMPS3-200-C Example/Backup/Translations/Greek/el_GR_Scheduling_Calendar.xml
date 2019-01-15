@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="el_GR" name="Greek" variant="Greek">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[el_GR]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[Π.Μ.]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[Μ.Μ.]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Λεπτό]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Ώρα]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Ημέρα]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Λεπτά]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Ώρες]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Ημέρες]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Δευτέρα]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Τρίτη]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Τετάρτη]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Πέμπτη]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Παρασκευή]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Σάββατο]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Κυριακή]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Ιανουάριος]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Φεβρουάριος]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Μάρτιος]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[Απρίλιος]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Μάιος]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Ιούνιος]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Ιούλιος]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[Αύγουστος]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[Σεπτέμβριος]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Οκτώβριος]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[Νοέμβριος]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[Δεκέμβριος]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Απομένουν]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Σε αναμονή για το Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Εντός δικτύου]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Εκτός δικτύου]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Εκτός δικτύου από τις]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Δεσμευμένο]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Διαθέσιμο]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[Δεσμευμένο]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Κατειλημμένο]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Μη Κατειλημμένο]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Θέμα:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[Οργανωτής:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Ώρα έναρξης]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Ώρα λήξης]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[ξεκινάει στις:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[λήγει στις:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Διάρκεια]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Λήξη τώρα]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Παράταση]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Δεν έχει επιλεγεί συνάντηση]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Νέα συνάντηση]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Ακύρωση]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Επιβεβαίωση]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Προσθήκη]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Συμμετοχή στη συνάντηση]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Αυτή η συνάντηση είναι ιδιωτική]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Ιδιωτική]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Ιδιωτική]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Συμμετέχοντες]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Υποχρεωτικά]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Προαιρετικά]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Δεν έχουν αναφερθεί συμμετέχοντες]]></lookup>
+
+</lang>

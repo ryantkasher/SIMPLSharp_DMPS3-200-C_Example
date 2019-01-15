@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="cs_CZ" name="Czech" variant="Czech">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[cs_CZ]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[Dopoledne]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[Odpoledne]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Minuta]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Hodina]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Den]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Minuty]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Hodiny]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Dny]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Pondělí]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Úterý]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Středa]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Čtvrtek]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Pátek]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Sobota]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Neděle]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Leden]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Únor]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Březen]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[Duben]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Květen]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Červen]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Červenec]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[Srpen]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[Září]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Říjen]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[Listopad]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[Prosinec]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Zbývající]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Čekání na Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Online]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Offline]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Offline od]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Rezervováno]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Dostupné]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[V rámci prahové hodnoty schůzky]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Obsazeno]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Neobsazeno]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Věc:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[pořadatel:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Čas zahájení]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Čas skončení]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[začíná v:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[končí v:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Doba trvání]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Skončit nyní]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Prodloužit]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Nebyla vybraná žádná schůzka]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Nová schůzka]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Zrušit]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Potvrdit:]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Přidat]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Přidat se ke schůzce]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Tato schůzka je soukromá]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Soukromé]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Soukromé]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Účastníci]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Požadováno]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Volitelné]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Žádní účastníci nebyli nahlášeni]]></lookup>
+
+</lang>

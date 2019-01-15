@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ru_RU" name="Russian" variant="Russian">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[ru_RU]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[утра]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[вечера]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Мин.]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Час]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[День]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Мин.]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Час.]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Дней]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Понедельник]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Вторник]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Среда]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Четверг]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Пятница]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Суббота]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Воскресенье]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Январь]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Февраль]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Март]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[Апрель]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Май]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Июнь]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Июль]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[Август]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[Сентябрь]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Октябрь]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[Ноябрь]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[Декабрь]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Осталось]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Ожидание Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[В сети]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Не в сети]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Не в сети с]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Зарезервировано]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Доступно]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[В пределах интервала встречи]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Занято]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Свободно]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Тема:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[организатор:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Время начала]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Время окончания]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[начало в:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[окончание в:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Продолжительность]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Завершить сейчас]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Продлить]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Встреча не выбрана]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Новая встреча]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Отмена]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Подтвердить]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Добавить]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Присоединиться к встрече]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Это личная встреча]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Личная]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Личная]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Участники]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Обязательно]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Не обязательно]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Не указаны участники]]></lookup>
+
+</lang>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="nb_NO" name="Norwegian" variant="Bokmal">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[nb_NO]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Minutt]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Time]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Dag]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Minutter]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Timer]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Dager]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Mandag]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Tirsdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Onsdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Torsdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Fredag]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Lørdag]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Søndag]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Januar]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Februar]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Mars]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[April]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Mai]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Juni]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Juli]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[August]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[September]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Oktober]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[November]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[Desember]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Gjenværende]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Venter på Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Online]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Offline]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Offline siden]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Reservert]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Tilgjengelig]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[Innen møteterskel]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Opptatt]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Ledig]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Subjekt:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[organisator:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Starttid]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Slutttid]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[starter:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[slutter:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Varighet]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Slutt nå]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Utvid]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Intet møte valgt]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Nytt møte]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Avbryt]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Bekreft]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Legg til]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Bli med i møte]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Dette møtet er privat]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Privat]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Privat]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Deltagere]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Påkrevd]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Valgfri]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Ingen rapporterte deltakere]]></lookup>
+
+</lang>

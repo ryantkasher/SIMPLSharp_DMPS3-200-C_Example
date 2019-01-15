@@ -1,0 +1,309 @@
+<!-- 
+    Copyright (C) 2015 to the present, Crestron Electronics, Inc.
+    All rights reserved.
+    No part of this software may be reproduced in any form, machine
+    or natural, without the express written consent of Crestron Electronics.
+
+-->    
+
+
+<script type="text/javascript">
+    function getFile()
+    {
+        document.getElementById("fileToUpload").click();
+    }
+    function CallSendFile() {
+
+        angular.element(document.getElementById('ConfigController')).scope().SendFileCert();
+    }
+    function CallShowComplete()
+    {
+        angular.element(document.getElementById('ConfigController')).scope().ShowComplete();
+    }
+    function CallReadyFile() {
+
+        angular.element(document.getElementById('ConfigController')).scope().ReadyFile();
+    }
+    
+    
+</script>
+<div ng-controller="ConfigController" id="ConfigController" ng-init="NoBusyMesssageDuringSave();GetSchedulingSettings(DefaultRoomId);GetSchedulingTypeChoices();">
+    <div class="Container100">
+        <div class="ContainerIndent">
+            <div class="ui-grid-col-12">
+
+                <form name="Config.FusionConfigForm" id='Config.FusionConfigForm' class="form-horizontal" novalidate role="form" ng-init="GetAvfConfig(DefaultRoomId);GetUsedIpIds(DefaultRoomId)">
+           
+           
+                    <fieldset class="ui-fieldset ui-widget ui-widget-content ui-corner-all">
+                        <legend class="ui-fieldset-legend ui-corner-all ui-state-default ui-unselectable-text">
+                            <?culture FusionSettings ?>
+                        </legend>
+                        <div class="ui-fieldset-content-wrapper">
+                            <div class="ui-fieldset-content">
+                                <div>
+                                    <div class="ui-grid ui-grid-responsive ui-grid-pad">
+
+           
+                                        <div class="form-group ui-grid-row" >
+                            
+                                            <div class="ui-grid-col-4">
+                                                <label class="ui-outputlabel" for="FusionConfig_RoomName"><?culture FusionRoomName ?></label>    
+                                            </div>
+               
+                                            <div class="ui-grid-col-8" >
+                                                <span>
+                                                    <input type="text"  class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry" placeholder="<?culture FusionRoomName ?>" ng-disabled="!FusionConfig.Enable" ng-model="FusionConfig.RoomName" id="FusionConfig_RoomName" name="FusionConfig_RoomName" required maxlength="40"  ng-pattern="roomNameRegEx" />
+                                                </span>
+                                                
+                                                <span class="alert alert-danger mercury-alert" ng-show="Config.FusionConfigForm.FusionConfig_RoomName.$invalid && Config.FusionConfigForm.FusionConfig_RoomName.$dirty && !Config.FusionConfigForm.FusionConfig_RoomName.$error['pattern']" ><?culture RoomNameRequired ?></span>
+                                                <span class="alert alert-danger mercury-alert" ng-show="Config.FusionConfigForm.FusionConfig_RoomName.$error['pattern'] && Config.FusionConfigForm.FusionConfig_RoomName.$dirty" ><?culture RoomNameValidCharactersWarning ?></span>
+                                            </div>
+                                        </div>
+           
+         
+                                        <div class="form-group ui-grid-row" >
+                                            <div class="ui-grid-col-4">
+                                                <label class="ui-outputlabel" for="FusionConfig_RoomName"><?culture FusionIpId ?></label>    
+                                            </div>
+               
+                                            <div class="ui-grid-col-8" >
+                                                <span>
+                                                <input type="text"  ng-disabled="!FusionConfig.Enable"  class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled SmallText" placeholder="<?culture FusionIpId ?>" ng-model="FusionConfig.FusionIpId" id="FusionConfig_FusionIpId" required ng-pattern="ipIdRegEx" name="FusionConfig_FusionIpId"  />
+                                                </span>
+                                                <span class="alert alert-danger mercury-alert" ng-show="Config.FusionConfigForm.FusionConfig_FusionIpId.$dirty && Config.FusionConfigForm.FusionConfig_FusionIpId.$invalid"><?culture IpIdValidationMessage ?></span>
+                                                <span class="alert alert-danger mercury-alert" ng-show="(Config.FusionConfigForm.FusionConfig_FusionIpId.$dirty) && (IsIpIdIAlreadyInUse(FusionConfig.FusionIpId, OldFusionConfig.FusionIpId))"><?culture IPID ?> {{ IdMessage(FusionConfig.FusionIpId); }} </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group ui-grid-row" >
+                                            <div class="ui-grid-col-4">
+                                                <label class="ui-outputlabel" for="FusionConfig_RoomName"><?culture FusionCloudURL ?></label>   
+                                            </div>
+                                            <div class="ui-grid-col-8">
+
+                                                <span>
+                                                    <input type="url" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry" ng-if="FusionConfig.EnableCloud && FusionConfig.Enable" style="width:30%;display: Inline; " placeholder="<?culture FusionCloudURL ?>"
+                                                           ng-disabled="!FusionConfig.EnableCloud && !FusionConfig.Enable" ng-model="FusionConfig.FusionCloudUrl" id="FusionConfig.FusionCloudUrl"
+                                                           name="FusionConfig_FusionCloudUrl" required /><span ng-if="FusionConfig.EnableCloud && FusionConfig.Enable">&nbsp;&nbsp;</span>
+                                                    <button class="ui-button-text ui-c" ng-disabled="!FusionConfig.Enable" ng-click="ToggleFusionCloudUrlEnabled(DefaultRoomId);">
+                                                        <i class="fa fa-times fa-lg" aria-hidden="true" style="color:white" ng-if="FusionConfig.EnableCloud "></i>
+                                                        <img class="crestron-subtitle-network-image" style="height: 15px; width: 15px;" src="../img/Save_All_btn_icn.png" ng-if="!FusionConfig.EnableCloud ">&nbsp;&nbsp;&nbsp;
+                                                        {{FusionCloudUrlEnableText}}</button>
+                                                </span>
+                                
+                                                <span class="alert alert-danger mercury-alert" ng-show="Config.FusionConfigForm.FusionConfig_FusionCloudUrl.$invalid && Config.FusionConfigForm.FusionConfig_FusionCloudUrl.$dirty">
+                                                    <?culture ValidValueMessage ?>
+                                                </span>
+                                    
+                                            </div>
+
+                                        </div>
+           
+                                        <div class="form-group ui-grid-row" >
+                                            <div class="ui-grid-col-4">
+                                                <label class="ui-outputlabel" for="FusionConfig_RoomName"><?culture FusionConnection ?></label>    
+                                            </div>
+               
+                                            <div class="ui-grid-col-8" ><label class="ui-outputlabel" style="text-align:left;" >{{FusionConfig.Connection}}</label></div>
+                                        </div>
+
+           
+                                        <div class="form-group ui-grid-row" >
+                                            <div class="ui-grid-col-4" ></div>
+                                            <div class="ui-grid-col-8" ><button type="button" name="Save" id="controlSave" class="ui-button-text ui-c" ng-click="SaveFusionConfig(DefaultRoomId);" ng-disabled="(!FusionConfig.Enable) || (GetSaveFusionConfigDisabled())">
+                                                                            <img class="crestron-subtitle-network-image" style="height:15px;width:15px;" src="../img/Save_All_btn_icn.png" ><?culture GeneralSave ?></button>
+                                                &nbsp;<button class="ui-button-text ui-c" ng-click="ToggleFusionEnabled(DefaultRoomId);" >
+                                                          
+                                                          <i class="fa fa-times fa-lg" aria-hidden="true" style="color:white" ng-if="FusionConfig.Enable"></i>
+                                                        <img class="crestron-subtitle-network-image" style="height: 15px; width: 15px;" src="../img/Save_All_btn_icn.png" ng-if="!FusionConfig.Enable">&nbsp;&nbsp;&nbsp;
+                                                          {{FusionEnableText}}
+                                                      </button>
+                                            </div>
+                                        </div>
+                                    </div></div></div></div>
+                    </fieldset>
+                </form>
+                <div class="form-group ui-grid-row">&nbsp;</div>
+    
+                
+                    <fieldset class="ui-fieldset ui-widget ui-widget-content ui-corner-all">
+                        <legend class="ui-fieldset-legend ui-corner-all ui-state-default ui-unselectable-text">
+                            <?culture CalendarSettings ?>
+                        </legend>
+                        <div class="ui-fieldset-content-wrapper">
+                            <div class="ui-fieldset-content">
+                                <div>
+                                    <div class="ui-grid ui-grid-responsive ui-grid-pad">
+    
+                                    
+                                        <form id='Form1' class="form-horizontal" novalidate role="form" >
+                                        <div class="form-group ui-grid-row" >
+                                            <div class="ui-grid-col-4">
+                                                <label class="ui-outputlabel mercury-label-fix2" for="AvfConfig_Locale"><?culture SchedulingType ?></label>
+                                            </div>
+               
+                                            <div class="ui-grid-col-8" ><select class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry" name="SchedulingSettings_SchedulingType" ng-disabled="!SchedulingSettings.Enable" ng-options="schedulingTypeChoice.Value as schedulingTypeChoice.Name for schedulingTypeChoice in SchedulingTypeChoices" ng-model="SchedulingSettings.SchedulingType" id="SchedulingSettings.SchedulingType" ng-change="SetSchedulingType(DefaultRoomId);"></select></div>
+                                        </div>
+                                        </form>
+    
+                                        <div ng-if ="SchedulingSettings.SchedulingType==SchedulingType.Exchange" class="ui-grid ui-grid-responsive ui-grid-pad">
+                                            <form name="Config.ScheduleConfigForm" id='Config.ScheduleConfigForm' class="form-horizontal" novalidate role="form" >
+ 
+                                            <div class="form-group ui-grid-row" >
+                                                <div class="ui-grid-col-4">
+                                                    <label class="ui-outputlabel mercury-label-fix2" for="SchedulingSettings_OutlookWebAccessUrl"><?culture OutlookWebAccessUrl ?></label>   
+                                                </div>
+                                                <div class="ui-grid-col-8">
+
+                                                    <span>
+                                                        <input type="url" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry"   placeholder="<?culture OutlookWebAccessUrl ?>"
+                                                               ng-disabled="!SchedulingSettings.Enable " ng-model="SchedulingSettings.OutlookWebAccessUrl" id="SchedulingSettings.OutlookWebAccessUrl"
+                                                               name="SchedulingSettings_OutlookWebAccessUrl" required title="<?culture OutlookWebAccessURLToolTip ?>"  />
+                                                    </span>
+                                                    <span class="alert alert-danger mercury-alert" ng-show="Config.ScheduleConfigForm.SchedulingSettings_OutlookWebAccessUrl.$invalid && Config.ScheduleConfigForm.SchedulingSettings_OutlookWebAccessUrl.$dirty">
+                                                        <?culture ValidUrlMessage ?></span>
+
+                                                </div>
+                                            </div>
+    
+                                            <div class="form-group ui-grid-row" >
+                                                <div class="ui-grid-col-4">
+                                                    <label class="ui-outputlabel mercury-label-fix2" for="SchedulingSettings_OutlookDomainName"><?culture OutlookDomainName ?></label>   
+                                                </div>
+                                                <div class="ui-grid-col-8">
+                                                    <span>
+                                                        <input type="text" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry"   placeholder="<?culture OutlookDomainName ?>"
+                                                               ng-disabled="!SchedulingSettings.Enable " ng-model="SchedulingSettings.OutlookDomainName" id="SchedulingSettings_OutlookDomainName"
+                                                               name="SchedulingSettings_OutlookDomainName" title="<?culture OutlookDomainNameToolTip ?><?culture OutlookDomainNameMisc ?>"  />
+                                                    </span>
+                                                    <span class="alert alert-danger mercury-alert" ng-show="Config.ScheduleConfigForm.SchedulingSettings_OutlookDomainName.$invalid && Config.ScheduleConfigForm.SchedulingSettings_OutlookDomainName.$dirty">
+                                                        <?culture ValidDomainName ?></span>
+                                                </div>
+
+                                            </div>
+    
+    
+                                            <div class="form-group ui-grid-row">
+                                                <div class="ui-grid-col-4">
+                                                    <label class="ui-outputlabel mercury-label-fix2" for="SchedulingSettings_OutlookUserEmailAddress">
+                                                        <?culture OutlookUserEmailAddress ?></label>
+                                                </div>
+                                                <div class="ui-grid-col-8">
+                                                    <span>
+                                                        <input type="text" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry"  placeholder="<?culture OutlookUserEmailAddress ?>" ng-disabled="!SchedulingSettings.Enable "
+                                                               ng-model="SchedulingSettings.OutlookUserEmailAddress" id="SchedulingSettings.OutlookUserEmailAddress" name="SchedulingSettings_OutlookUserEmailAddress"
+                                                               required ng-pattern="usernameRegEx" minlength="1" maxlength="30" title="<?culture OutlookUserEmailAddressToolTip ?>"  />
+                                                    </span>
+                                                    <span class="alert alert-danger mercury-alert" ng-show="Config.ScheduleConfigForm.SchedulingSettings_OutlookUserEmailAddress.$invalid && Config.ScheduleConfigForm.SchedulingSettings_OutlookUserEmailAddress.$dirty">
+                                                        <?culture ValidUsernameMessage ?></span>
+
+                                                </div>
+                                            </div>
+    
+    
+                                            <div class="form-group ui-grid-row">
+                                                <div class="ui-grid-col-4">
+                                                    <label class="ui-outputlabel mercury-label-fix2" for="SchedulingSettings_OutlookPassword">
+                                                        <?culture OutlookPassword ?></label>
+                                                </div>
+                                                <div class="ui-grid-col-8">
+                                                    <span>
+                                                        <input type="password" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry"  placeholder="<?culture OutlookPassword ?>" ng-disabled="!SchedulingSettings.Enable"
+                                                               ng-model="SchedulingSettings.OutlookPassword" id="SchedulingSettings.OutlookPassword" name="SchedulingSettings_OutlookPassword"
+                                                               required />
+                                                    </span>
+                                                    <span class="alert alert-danger mercury-alert" ng-show="Config.ScheduleConfigForm.SchedulingSettings_OutlookPassword.$invalid && Config.ScheduleConfigForm.SchedulingSettings_OutlookPassword.$dirty">
+                                                        <?culture ValidPassword ?></span>
+                                                </div>
+
+                                            </div>
+    
+                                            <div class="form-group ui-grid-row">
+                                                <div class="ui-grid-col-4">
+                                                    <label class="ui-outputlabel mercury-label-fix2" for="SchedulingSettings_OutlookResourceAddress" >
+                                                        <?culture OutlookResourceAddress ?></label>
+                                                </div>
+                                                <div class="ui-grid-col-8">
+                                                    <span>
+                                                    <input type="email" class="ui-inputtext ui-corner-all ui-state-default ui-widget ui-state-filled mercury-entry"  placeholder="<?culture OutlookResourceAddress ?>" ng-disabled="!SchedulingSettings.Enable "  ng-pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,10}$/"
+                                                               ng-model="SchedulingSettings.OutlookResourceAddress" id="SchedulingSettings.OutlookResourceAddress" name="SchedulingSettings_OutlookResourceAddress"   title="<?culture OutlookResourceAddressToopTip ?>" />
+                                                    </span>
+                                                    <span class="alert alert-danger mercury-alert" ng-show="Config.ScheduleConfigForm.SchedulingSettings_OutlookResourceAddress.$invalid && Config.ScheduleConfigForm.SchedulingSettings_OutlookResourceAddress.$dirty">
+                                                        <?culture ValidOutlookResourceAddress ?></span>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group ui-grid-row">
+                                                <div class="ui-grid-col-4">
+                                                    <label class="ui-outputlabel mercury-label-fix2" for="SchedulingSettings_OutlookUseCertificate">
+                                                        <?culture OutlookUseCertificate ?></label>
+                                                </div>
+                                                <div class="ui-grid-col-8">
+                                                    <span>
+                                                        <input type="checkbox" class="mercury-checkbox"    ng-disabled="!SchedulingSettings.Enable "  
+                                                               ng-model="SchedulingSettings.OutlookUseCertificate" id="SchedulingSettings.OutlookUseCertificate" name="SchedulingSettings_OutlookUseCertificate"
+                                                            />
+                                                    </span>
+                                                </div>
+                                            </div>     
+                                            </form>                       
+                                            <!--- --->
+                                            <div class="form-group ui-grid-row" ng-if="SchedulingSettings.OutlookUseCertificate">
+                                                    <div class="ui-grid-col-4">
+                                                        <label class="ui-outputlabel" for="SchedulingSettings_OutlookCertificate">
+                                                            <?culture OutlookCertificate ?></label>
+                                                    </div>
+                                                    <div class="ui-grid-col-8">
+                                                        <form name="UploadConfigForm" id='UploadConfigForm' class="form-inline" action="MercuryExternalSettings.html"
+                                                              enctype="multipart/form-data" method="post" role="form">
+                                                            <label class="ui-button-text myLabel">
+                                                                <i class="fa fa-upload fa-lg" aria-hidden="true" style="color:white" ng-if="SchedulingSettings.Enable"></i>
+                                                                <!--<input type="file" name="fileToUpload" onchange="CallSendFile();" id="fileToUpload" >-->
+                                                                <input type="file" name="fileToUpload"  id="fileToUpload" onchange="CallReadyFile();">
+                                                                <span>&nbsp&nbsp<?culture UploadCertificate ?>&nbsp&nbsp</span>
+                                                            </label>
+                                                        </form>
+                                                    </div>
+                                            </div>
+    
+                                            <!--- --->
+
+
+                                        </div>      
+                                        
+                                        <div class="form-group ui-grid-row">
+                                            <div class="ui-grid-col-4">
+                                            </div>
+                                            <div class="ui-grid-col-8">
+                                                <button type="button" name="Save" id="Button1" class="ui-button-text ui-c"
+                                                        ng-click="SaveSchedulingSettings(DefaultRoomId);" ng-disabled="((!SchedulingSettings.Enable) || Config.ScheduleConfigForm.$invalid || (!Config.ScheduleConfigForm.$dirty) )&&(!SaveCert)">
+                                                    
+                                                    <img class="crestron-subtitle-network-image" style="height: 15px; width: 15px;" src="../img/Save_All_btn_icn.png"><?culture GeneralSave ?>
+                                                </button>
+                                                &nbsp;
+<!--                                                <br>
+                                                Config.ScheduleConfigForm.$dirty=={{Config.ScheduleConfigForm.$dirty}}<br>
+                                                Config.ScheduleConfigForm.$invalid =={{Config.ScheduleConfigForm.$invalid}} <br>
+                                                SchedulingSettings.Enable=={{SchedulingSettings.Enable}}<br>
+                                                SaveCert=={{SaveCert}}<br>
+-->                                                
+                                                <button class="ui-button-text ui-c" ng-click="ToggleScheduleEnabled(DefaultRoomId);">
+                                                    <i class="fa fa-times fa-lg" aria-hidden="true" style="color:white" ng-if="SchedulingSettings.Enable"></i>
+                                                    <img class="crestron-subtitle-network-image" style="height: 15px; width: 15px;" src="../img/Save_All_btn_icn.png" ng-if="!SchedulingSettings.Enable">&nbsp;&nbsp;&nbsp;
+                                                    {{ScheduleEnableText}}
+                                                </button>
+                                            </div>
+                                        </div>
+                                        
+                                    </div></div></div></div>
+                                    
+                    </fieldset>
+                
+            </div></div></div>
+
+
+            
+</div>
+
+
+

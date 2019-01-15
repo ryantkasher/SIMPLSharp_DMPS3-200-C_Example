@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="zh_TW" name="Chinese" variant="Traditional">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[zh_TW]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[分鐘]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[小時]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[天]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[分鐘]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[小時]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[天數]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[星期一]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[星期二]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[星期三]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[星期四]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[星期五]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[星期六]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[星期日]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[一月]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[二月]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[三月]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[四月]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[五月]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[六月]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[七月]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[八月]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[九月]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[十月]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[十一月]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[十二月]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[剩餘]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[等待 Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[上線]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[離線]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[離線始於]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[已預定]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[可預定]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[會議臨界值內]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[已佔用]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[未佔用]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[主題：]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[組織者：]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[開始時間]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[結束時間]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[開始於：]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[結束於：]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[持續時間]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[立即結束]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[延長]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[未選擇會議]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[新增會議]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[取消]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[確認]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[新增]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[加入會議]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[此會議為私人]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[私人]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[私人]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[出席者]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[必填]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[非必要]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[未回報出席者]]></lookup>
+
+</lang>

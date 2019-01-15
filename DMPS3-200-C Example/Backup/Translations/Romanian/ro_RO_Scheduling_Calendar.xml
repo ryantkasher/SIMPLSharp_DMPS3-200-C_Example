@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ro_RO" name="Romanian" variant="Romanian">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[ro_RO]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[AM]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[PM]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Minut]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Oră]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Zi]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Minute]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Ore]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Zile]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Luni]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Marți]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Miercuri]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Joi]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Vineri]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Sâmbătă]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Duminică]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Ianuarie]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Februarie]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Martie]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[Aprilie]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Mai]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Iunie]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Iulie]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[August]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[Septembrie]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Octombrie]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[Noiembrie]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[Decembrie]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Rămas]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[În așteptarea Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Conectat]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Neconectat]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Neconectat începând cu]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Rezervat]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Disponibil]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[Respectă pragul pentru întâlnire]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Ocupat]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Neocupat]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Subiect:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[organizator:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Ora de începere]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Ora de oprire]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[începe la:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[se oprește la:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Durată]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Oprire în acest moment]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Extindere]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Nicio întâlnire selectată]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Întâlnire nouă]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Revocare]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Confirmare]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Adăugare]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Participare la întâlnire]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Această întâlnire este privată]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Privat]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Privat]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Participanți]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Obligatorii]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Opționali]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Niciun participant raportat]]></lookup>
+
+</lang>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ar_EG" name="Arabic" variant="Egypt">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[ar_EG]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[صباحًا]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[مساءً]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[دقيقة]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[ساعة]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[يوم]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[دقائق]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[ساعات]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[أيام]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[الاثنين]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[الثلاثاء]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[الأربعاء]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[الخميس]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[الجمعة]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[السبت]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[الأحد]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[يناير]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[فبراير]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[مارس]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[إبريل]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[مايو]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[يونيو]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[يوليو]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[أغسطس]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[سبتمبر]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[أكتوبر]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[نوفمبر]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[ديسمبر]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[متبقي]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[جار انتظار Fusion®]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[متصل]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[غير متصل]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[غير متصل منذ]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[محجوز]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[متاح]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[في وقت الاجتماع]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[مشغول]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[غير مشغول]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[الموضوع:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[المنظم:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[وقت البدء]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[وقت الانتهاء]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[يبدأ في:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[ينتهي في:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[المدة الزمنية]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[إنهاء الآن]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[ممتد]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[لم يتم تحديد أي اجتماع]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[اجتماع جديد]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[إلغاء]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[تأكيد]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[إضافة]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[انضمام إلى اجتماع]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[هذا الاجتماع خاص]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[خاص]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[خاص]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[الحاضرون]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[مطلوب]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[اختياري]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[لم يتم الإبلاغ عن وجود حاضرين]]></lookup>
+
+</lang>

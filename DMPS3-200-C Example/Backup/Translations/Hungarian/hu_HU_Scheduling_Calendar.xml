@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang locale="hu_HU" name="Hungarian" variant="Hungarian">
+
+	<!--Language code-->
+	<lookup key="Scheduling_Calendar_LanguageCode"><![CDATA[hu_HU]]></lookup>
+
+	<!-- Time -->
+	<lookup key="Scheduling_Calendar_AM"><![CDATA[DE]]></lookup>
+	<lookup key="Scheduling_Calendar_PM"><![CDATA[DU]]></lookup>
+	<lookup key="Scheduling_Calendar_Minute"><![CDATA[Perc]]></lookup>
+	<lookup key="Scheduling_Calendar_Hour"><![CDATA[Óra]]></lookup>
+	<lookup key="Scheduling_Calendar_Day"><![CDATA[Nap]]></lookup>
+	<lookup key="Scheduling_Calendar_Minutes"><![CDATA[Perc]]></lookup>
+	<lookup key="Scheduling_Calendar_Hours"><![CDATA[Óra]]></lookup>
+	<lookup key="Scheduling_Calendar_Days"><![CDATA[Nap]]></lookup>
+
+	<!--Days-->
+	<lookup key="Scheduling_Calendar_Monday"><![CDATA[Hétfő]]></lookup>
+	<lookup key="Scheduling_Calendar_Tuesday"><![CDATA[Kedd]]></lookup>
+	<lookup key="Scheduling_Calendar_Wednesday"><![CDATA[Szerda]]></lookup>
+	<lookup key="Scheduling_Calendar_Thursday"><![CDATA[Csütörtök]]></lookup>
+	<lookup key="Scheduling_Calendar_Friday"><![CDATA[Péntek]]></lookup>
+	<lookup key="Scheduling_Calendar_Saturday"><![CDATA[Szombat]]></lookup>
+	<lookup key="Scheduling_Calendar_Sunday"><![CDATA[Vasárnap]]></lookup>
+
+	<!--Months-->
+	<lookup key="Scheduling_Calendar_January"><![CDATA[Január]]></lookup>
+	<lookup key="Scheduling_Calendar_February"><![CDATA[Február]]></lookup>
+	<lookup key="Scheduling_Calendar_March"><![CDATA[Március]]></lookup>
+	<lookup key="Scheduling_Calendar_April"><![CDATA[Április]]></lookup>
+	<lookup key="Scheduling_Calendar_May"><![CDATA[Május]]></lookup>
+	<lookup key="Scheduling_Calendar_June"><![CDATA[Június]]></lookup>
+	<lookup key="Scheduling_Calendar_July"><![CDATA[Július]]></lookup>
+	<lookup key="Scheduling_Calendar_August."><![CDATA[Augusztus]]></lookup>
+	<lookup key="Scheduling_Calendar_September"><![CDATA[Szeptember]]></lookup>
+	<lookup key="Scheduling_Calendar_October"><![CDATA[Október]]></lookup>
+	<lookup key="Scheduling_Calendar_November"><![CDATA[November]]></lookup>
+	<lookup key="Scheduling_Calendar_December"><![CDATA[December]]></lookup>
+
+	<!--Remaining-->
+	<lookup key="Scheduling_Calendar_RemainingText"><![CDATA[Hátra van]]></lookup>
+
+	<!--Status-->
+	<lookup key="Scheduling_Calendar_Waiting"><![CDATA[Várakozás a Fusion®-re]]></lookup>
+	<lookup key="Scheduling_Calendar_Online"><![CDATA[Online]]></lookup>
+	<lookup key="Scheduling_Calendar_Offline"><![CDATA[Offline]]></lookup>
+	<lookup key="Scheduling_Calendar_OfflineSince"><![CDATA[Mióta offline?]]></lookup>
+	<lookup key="Scheduling_Calendar_Reserved"><![CDATA[Fenntartva]]></lookup>
+	<lookup key="Scheduling_Calendar_Available"><![CDATA[Elérhető]]></lookup>
+	<lookup key="Scheduling_Calendar_ThresholdReserved"><![CDATA[Már foglalt]]></lookup>
+	<lookup key="Scheduling_Calendar_Occupied"><![CDATA[Foglalt]]></lookup>
+	<lookup key="Scheduling_Calendar_Unoccupied"><![CDATA[Szabad]]></lookup>
+
+	<!--Details View & Reserve Popup-->
+	<lookup key="Scheduling_Calendar_Subject"><![CDATA[Tárgy:]]></lookup>
+	<lookup key="Scheduling_Calendar_Organizer"><![CDATA[szervező:]]></lookup>
+	<lookup key="Scheduling_Calendar_StartTime"><![CDATA[Kezdés ideje:]]></lookup>
+	<lookup key="Scheduling_Calendar_EndTime"><![CDATA[Befejezés ideje:]]></lookup>
+	<lookup key="Scheduling_Calendar_Starts"><![CDATA[kezdődik:]]></lookup>
+	<lookup key="Scheduling_Calendar_Ends"><![CDATA[befejeződik:]]></lookup>
+	<lookup key="Scheduling_Calendar_Duration"><![CDATA[Időtartam]]></lookup>
+	<lookup key="Scheduling_Calendar_End"><![CDATA[Befejezés most]]></lookup>
+	<lookup key="Scheduling_Calendar_Extend"><![CDATA[Meghosszabbítás]]></lookup>
+	<lookup key="Scheduling_Calendar_NoMeeting"><![CDATA[Nincs kiválasztva találkozó]]></lookup>
+	<lookup key="Scheduling_Calendar_NewMeeting"><![CDATA[Új találkozó]]></lookup>
+	<lookup key="Scheduling_Calendar_Cancel"><![CDATA[Mégsem]]></lookup>
+	<lookup key="Scheduling_Calendar_Confirm"><![CDATA[Megerősítés]]></lookup>
+	<lookup key="Scheduling_Calendar_Add"><![CDATA[Hozzáadás]]></lookup>
+	<lookup key="Scheduling_Calendar_JoinMeeting"><![CDATA[Csatlakozás a találkozóhoz]]></lookup>
+
+	<!--Privacy-->
+	<lookup key="Scheduling_Calendar_PrivateSubject"><![CDATA[Ez magánjellegű találkozó]]></lookup>
+	<lookup key="Scheduling_Calendar_PrivateOrganizer"><![CDATA[Magánjellegű]]></lookup>
+	<lookup key="Scheduling_Calendar_Private"><![CDATA[Magánjellegű]]></lookup>
+
+	<!--Attendees Popup-->
+	<lookup key="Scheduling_Calendar_Attendees"><![CDATA[Résztvevők]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesRequired"><![CDATA[Szükséges]]></lookup>
+	<lookup key="Scheduling_Calendar_AttendeesOptional"><![CDATA[Választhat]]></lookup>
+	<lookup key="Scheduling_Calendar_NoAttendees"><![CDATA[Nincs jelentés résztvevőkről]]></lookup>
+
+</lang>
